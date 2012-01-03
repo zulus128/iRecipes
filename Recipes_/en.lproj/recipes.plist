@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<dict>
+		<key>ingredsPhoto</key>
+		<string>1_1_ingreds.png</string>
+		<key>ingreds_order</key>
+		<array>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>3</integer>
+			<integer>4</integer>
+			<integer>5</integer>
+			<integer>6</integer>
+			<integer>7</integer>
+			<integer>8</integer>
+		</array>
+		<key>ingredients</key>
+		<dict>
+			<key>1</key>
+			<string>500g.</string>
+			<key>2</key>
+			<string>500g.</string>
+			<key>3</key>
+			<string>x2</string>
+			<key>4</key>
+			<string>200g.</string>
+			<key>5</key>
+			<string>500g.</string>
+			<key>6</key>
+			<string>to taste</string>
+			<key>7</key>
+			<string>to taste</string>
+			<key>8</key>
+			<string>40g.</string>
+		</dict>
+		<key>imgs</key>
+		<array>
+			<string>1_1_100.png</string>
+			<string>1_1_1.png</string>
+			<string>1_1_2.png</string>
+			<string>1_1_3.png</string>
+			<string>1_1_4.png</string>
+			<string>1_1_5.png</string>
+			<string>1_1_6.png</string>
+			<string>1_1_7.png</string>
+			<string>1_1_9.png</string>
+			<string>1-креветки.png</string>
+		</array>
+		<key>manufacturer</key>
+		<string>Our chief</string>
+		<key>name</key>
+		<string>Salad with Crispy Prawns, Fennel and Young Spinach</string>
+		<key>persons</key>
+		<string>Serves 4</string>
+		<key>steps</key>
+		<array>
+			<string>Wash and peel the tiger prawns removing heads but keeping the tails on. Wrap each individual prawn into a slice of bacon.</string>
+			<string>Cut all the tomatoes into quarters.</string>
+			<string>Remove the top leaves off of fennel.</string>
+			<string>Grate the fennel on a fine grater into long thin strips.</string>
+			<string>Put the fennel, the tomatoes and the fresh spinach leaves out onto a plate, add salt and some freshly ground black pepper for extra aroma.</string>
+			<string>Fry the prawns in olive oil until golden brown.</string>
+			<string>Put the sizzling crispy prawns out on top of the fresh spinach leaves and drizzle with olive oil.</string>
+		</array>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>ingredsPhoto</key>
+		<string>1_2_ingreds.png</string>
+		<key>ingreds_order</key>
+		<array>
+			<integer>9</integer>
+			<integer>10</integer>
+			<integer>11</integer>
+			<integer>12</integer>
+			<integer>13</integer>
+			<integer>14</integer>
+			<integer>15</integer>
+			<integer>6</integer>
+			<string>7</string>
+			<string>8</string>
+		</array>
+		<key>ingredients</key>
+		<dict>
+			<key>9</key>
+			<string>400g.</string>
+			<key>10</key>
+			<string>x4</string>
+			<key>11</key>
+			<string>500 ml.</string>
+			<key>12</key>
+			<string>300g.</string>
+			<key>13</key>
+			<string>100g.</string>
+			<key>14</key>
+			<string>x2</string>
+			<key>15</key>
+			<string>x1</string>
+			<key>6</key>
+			<string>to taste</string>
+			<key>7</key>
+			<string>to taste</string>
+			<key>8</key>
+			<string>40g.</string>
+		</dict>
+		<key>imgs</key>
+		<array>
+			<string>1_2_100.png</string>
+			<string>1_2_1.png</string>
+			<string>1_2_2.png</string>
+			<string>1_2_3.png</string>
+			<string>1_2_4.png</string>
+			<string>1_2_5.png</string>
+			<string>1_2_6.png</string>
+			<string>1_2_7.png</string>
+			<string></string>
+			<string>2-фитучини.png</string>
+		</array>
+		<key>manufacturer</key>
+		<string>Our chief</string>
+		<key>name</key>
+		<string>Homemade Fettuccini with White Mushrooms</string>
+		<key>persons</key>
+		<string>Serves 4</string>
+		<key>steps</key>
+		<array>
+			<string>Make dough: break the eggs into the flour and mix until even consistency.</string>
+			<string>Cover the bowl of dough with cling film and leave in the fridge for 30 mins.</string>
+			<string>Divide the dough into 3 equal parts and roll with a rolling pin (or a pasta maker) into sheets about 1.5 mm thick. Dry pasta sheets on both sides.</string>
+			<string>The resulting sheets are to be rolled onto the rolling pin covered in flour. Slide the rolls of pasta off the rolling pin and cut along into long thick strips about 2 cm thick. If using the pasta maker, use the thickest setting.</string>
+			<string>Chop the mushrooms and shallots into thick long strips and fry in olive oil until light golden brown. Add cream and rosemary, simmer gently until the sauce thickens.</string>
+			<string>Boil the fettuccini in lightly salted water for 3 minutes until the pasta is al dente (firm but not hard). Add the drained pasta into the sauce and stir well.</string>
+			<string>Serve the pasta out onto a plate and add grated parmesan, add freshly ground black pepper for extra aroma.</string>
+		</array>
+	</dict>
+	<key>3</key>
+	<dict>
+		<key>ingredsPhoto</key>
+		<string>1_3_ingreds.png</string>
+		<key>ingreds_order</key>
+		<array>
+			<integer>16</integer>
+			<integer>17</integer>
+			<integer>18</integer>
+			<integer>19</integer>
+			<integer>20</integer>
+			<integer>21</integer>
+			<integer>15</integer>
+			<integer>22</integer>
+			<string>6</string>
+			<string>7</string>
+			<string>8</string>
+		</array>
+		<key>ingredients</key>
+		<dict>
+			<key>16</key>
+			<string>1000g</string>
+			<key>17</key>
+			<string>250ml.</string>
+			<key>18</key>
+			<string>250ml.</string>
+			<key>19</key>
+			<string>100g.</string>
+			<key>20</key>
+			<string>400g.</string>
+			<key>21</key>
+			<string>x1</string>
+			<key>15</key>
+			<string>x1</string>
+			<key>22</key>
+			<string>20g.</string>
+			<key>6</key>
+			<string>to taste</string>
+			<key>7</key>
+			<string>to taste</string>
+			<key>8</key>
+			<string>20g.</string>
+		</dict>
+		<key>imgs</key>
+		<array>
+			<string>1_3_100.png</string>
+			<string>1_3_1.png</string>
+			<string>1_3_2.png</string>
+			<string>1_3_3.png</string>
+			<string>1_3_4.png</string>
+			<string>1_3_5.png</string>
+			<string>1_3_6.png</string>
+			<string>1_3_7.png</string>
+			<string></string>
+			<string>3-мясо.png</string>
+		</array>
+		<key>manufacturer</key>
+		<string>Our chief</string>
+		<key>name</key>
+		<string>Fillet of Beef with Balsamic Caramel and Browned Potatoes</string>
+		<key>persons</key>
+		<string>Serves 4</string>
+		<key>steps</key>
+		<array>
+			<string>Cut the potatoes into thin pieces 5 mm. wide.</string>
+			<string>Cut the beef into four pieces, sprinkle some salt and freshly ground black pepper.</string>
+			<string>Fry the potatoes on one side with a little butter and olive oil in a hot non-stick frying pan.</string>
+			<string>Turn the potatoes over and put the beef out into the same frying pan, adding thyme and rosemary. For “medium-rare”, the beef is fried on both sides on high heat so that a little crust is formed locking in the juices inside the beef. For “medium” the beef is fried for five minutes on medium heat.</string>
+			<string>Put the potatoes out onto the plate so that the sauce can be prepared.</string>
+			<string>Add cane sugar to the same pan and heat until the sugar caramelises, then the beef is added and fried for a further two minutes on low heat.</string>
+			<string>Red wine and balsamic vinegar are then added to the caramel. The water will eventually evaporate out of the sauce thickening it, and the beef is turned in it from time to time until the sauce consistency is that of  honey. Take the beef out of the frying pan, add to the potatoes on the plate and serve.</string>
+		</array>
+	</dict>
+	<key>4</key>
+	<dict>
+		<key>ingredsPhoto</key>
+		<string>1_4_ingreds.png</string>
+		<key>ingreds_order</key>
+		<array>
+			<integer>11</integer>
+			<integer>23</integer>
+			<integer>10</integer>
+			<integer>24</integer>
+			<integer>25</integer>
+			<integer>26</integer>
+		</array>
+		<key>ingredients</key>
+		<dict>
+			<key>11</key>
+			<string>500 ml.</string>
+			<key>23</key>
+			<string>10 tablespoonfuls</string>
+			<key>10</key>
+			<string>x4</string>
+			<key>24</key>
+			<string>300g.</string>
+			<key>25</key>
+			<string>x2</string>
+			<key>26</key>
+			<string>300g.</string>
+		</dict>
+		<key>imgs</key>
+		<array>
+			<string>1_4_100.png</string>
+			<string>1_4_1.png</string>
+			<string>1_4_2.png</string>
+			<string>1_4_3.png</string>
+			<string>1_4_4.png</string>
+			<string>1_4_5.png</string>
+			<string>1_4_6.png</string>
+			<string>1_4_7.png</string>
+			<string></string>
+			<string>4-семифредо.png</string>
+		</array>
+		<key>manufacturer</key>
+		<string>Our chief</string>
+		<key>name</key>
+		<string>Semifreddo with Almonds</string>
+		<key>persons</key>
+		<string>Serves 4</string>
+		<key>steps</key>
+		<array>
+			<string>To make caramel, put 300g. sugar in a cold frying pan and melt the sugar into caramel until light brown on small heat. Add almonds to the pan, stir thoroughly and pour out onto a baking tray that has been rubbed with butter.</string>
+			<string>The hardened up and cooled down block of almond caramel is then broken down into small pieces making sure the almond halves in it are left intact.</string>
+			<string>Whip the eggs and the sugar into a thick foam, adding the insides of the vanilla pods.</string>
+			<string>Pour the whipped foam into another bowl and whip the cream into thick whipped cream.</string>
+			<string>Add the whipped cream to the whipped egg foam and stir thoroughly. Add half of the almond caramel bits.</string>
+			<string>Put the resulting mousse into a shape and sprinkle on the rest of the caramelised almonds. Leave in the freezer for three hours.</string>
+			<string>In order to remove the semifreddo out of its container it is required to put the bottom of the container in and out of a pot of hot water a few times.</string>
+		</array>
+	</dict>
+	<key>5</key>
+	<dict>
+		<key>ingredsPhoto</key>
+		<string>2_1_ingreds.png</string>
+		<key>ingreds_order</key>
+		<array>
+			<integer>27</integer>
+			<integer>28</integer>
+			<integer>29</integer>
+			<integer>4</integer>
+			<integer>30</integer>
+			<integer>5</integer>
+			<integer>31</integer>
+			<integer>32</integer>
+			<string>6</string>
+			<string>7</string>
+			<string>8</string>
+		</array>
+		<key>ingredients</key>
+		<dict>
+			<key>27</key>
+			<string>1000g.</string>
+			<key>28</key>
+			<string>500g.</string>
+			<key>29</key>
+			<string>100g.</string>
+			<key>4</key>
+			<string>100g.</string>
+			<key>30</key>
+			<string>100g.</string>
+			<key>5</key>
+			<string>500g.</string>
+			<key>31</key>
+			<string>x1</string>
+			<key>32</key>
+			<string>x2</string>
+			<key>6</key>
+			<string>to taste</string>
+			<key>7</key>
+			<string>to taste</string>
+			<key>8</key>
+			<string>40g.</string>
+		</dict>
+		<key>imgs</key>
+		<array>
+			<string>2_1_100.png</string>
+			<string>2_1_1.png</string>
+			<string>2_1_2.png</string>
+			<string>2_1_3.png</string>
+			<string>2_1_4.png</string>
+			<string>2_1_5.png</string>
+			<string>2_1_6.png</string>
+			<string>2_1_7.png</string>
+			<string></string>
+			<string>1-ось.png</string>
+		</array>
+		<key>manufacturer</key>
+		<string>Our chief</string>
+		<key>name</key>
+		<string>Octopus and Potato Salad</string>
+		<key>persons</key>
+		<string>Serves 4</string>
+		<key>steps</key>
+		<array>
+			<string>Boil the octopus meat with a half of lemon in salted water for 1 hour. Peel the potatoes and cut into large cubes. Boil in salted water.</string>
+			<string>Cut the tomatoes into quarters. Just as with boiling the potatoes, it is easy to find out if the octopus is ready by piercing it with a fork, or to taste a little piece.</string>
+			<string>After it’s boiled, it is necessary to run the octopus under cold water and to take all the skin off, making sure the “beak” is removed. The whole octopus is then cut into pieces, including the head.</string>
+			<string>Put the potatoes, octopus and tomatoes into a bowl, add salt and freshly ground black pepper.</string>
+			<string>Tear the basil by hand for extra aroma and throw into the bowl.</string>
+			<string>Squeeze the lemon juice into the bowl and add olive oil, stirring thoroughly.</string>
+			<string>Put rocket, spinach and the rest of the ingredients out onto a plate and serve.</string>
+		</array>
+	</dict>
+	<key>6</key>
+	<dict>
+		<key>ingredsPhoto</key>
+		<string>2_2_ingreds.png</string>
+		<key>ingreds_order</key>
+		<array>
+			<integer>1</integer>
+			<integer>33</integer>
+			<integer>9</integer>
+			<integer>10</integer>
+			<integer>34</integer>
+			<integer>35</integer>
+			<integer>36</integer>
+			<integer>5</integer>
+			<string>37</string>
+			<string>38</string>
+			<string>32</string>
+			<string>21</string>
+			<string>6</string>
+			<string>7</string>
+			<string>8</string>
+		</array>
+		<key>ingredients</key>
+		<dict>
+			<key>1</key>
+			<string>500g.</string>
+			<key>33</key>
+			<string>500g.</string>
+			<key>9</key>
+			<string>200g.</string>
+			<key>10</key>
+			<string>x2</string>
+			<key>34</key>
+			<string>a pinch</string>
+			<key>35</key>
+			<string>100g.</string>
+			<key>36</key>
+			<string>400-500 ml.</string>
+			<key>5</key>
+			<string>300g.</string>
+			<key>37</key>
+			<string>x1</string>
+			<key>38</key>
+			<string>x4</string>
+			<key>32</key>
+			<string>x2</string>
+			<key>21</key>
+			<string>x4</string>
+			<key>6</key>
+			<string>to taste</string>
+			<key>7</key>
+			<string>to taste</string>
+			<key>8</key>
+			<string>40g.</string>
+		</dict>
+		<key>imgs</key>
+		<array>
+			<string>2_2_100.png</string>
+			<string>2_2_1.png</string>
+			<string>2_2_2.png</string>
+			<string>2_2_3.png</string>
+			<string>2_2_4.png</string>
+			<string>2_2_5.png</string>
+			<string>2_2_6.png</string>
+			<string>2_2_7.png</string>
+			<string></string>
+			<string>2-ньекки.png</string>
+		</array>
+		<key>manufacturer</key>
+		<string>Our chief</string>
+		<key>name</key>
+		<string>Gnocchi with Zucchini and Prawns</string>
+		<key>persons</key>
+		<string>Serves 4</string>
+		<key>steps</key>
+		<array>
+			<string>Boil potatoes, peel, mash. Mix eggs, flour, nutmeg, parmesan and potato mash together and need like dough until even consistency.</string>
+			<string>Divide into four equal parts and roll with a rolling pin into sheets 2 cm. high, then cut each in half in order to get long strips. Make sure each side of every strip is covered in plenty of flour and cut into pieces 2 cm. wide.</string>
+			<string>Using a fork make the pieces into classic “gnocchi” shape by rolling the pieces along the tines of a fork.</string>
+			<string>Cut the vegetables: zucchini into long thin strips, tomatoes into quarters, asparagus into rings and onion and garlic into thin half-rings.</string>
+			<string>Add olive oil to a warm frying pan and fry the prawns together with all the vegetables and a stem of thyme, a pinch of salt and some freshly ground black pepper for extra flavour. Add the white wine.</string>
+			<string>Boil the gnocchi in salted water until they float up to the surface. Sieve the water out and add the gnocchi to the sauce and cook for a further 2 mins. so that the sauce cooks into the gnocchi.</string>
+			<string>Serve the gnocchi onto plates and add some parmesan and/or black pepper to taste.</string>
+		</array>
+	</dict>
+	<key>7</key>
+	<dict>
+		<key>ingredsPhoto</key>
+		<string>2_3_ingreds.png</string>
+		<key>ingreds_order</key>
+		<array>
+			<integer>39</integer>
+			<integer>40</integer>
+			<integer>41</integer>
+			<integer>42</integer>
+			<integer>28</integer>
+			<integer>37</integer>
+			<integer>43</integer>
+			<integer>44</integer>
+			<string>38</string>
+			<string>31</string>
+			<string>15</string>
+			<string>21</string>
+			<string>32</string>
+			<string>6</string>
+			<string>7</string>
+			<string>8</string>
+		</array>
+		<key>ingredients</key>
+		<dict>
+			<key>39</key>
+			<string>x2 (600-800g.)</string>
+			<key>40</key>
+			<string>x1</string>
+			<key>41</key>
+			<string>x1</string>
+			<key>42</key>
+			<string>x1</string>
+			<key>28</key>
+			<string>x2</string>
+			<key>37</key>
+			<string>x1</string>
+			<key>43</key>
+			<string>x1</string>
+			<key>44</key>
+			<string>x1</string>
+			<key>38</key>
+			<string>x4</string>
+			<key>31</key>
+			<string>x2</string>
+			<key>15</key>
+			<string>x2</string>
+			<key>21</key>
+			<string>x4</string>
+			<key>32</key>
+			<string>x1</string>
+			<key>6</key>
+			<string>to taste</string>
+			<key>7</key>
+			<string>to taste</string>
+			<key>8</key>
+			<string>40g.</string>
+		</dict>
+		<key>imgs</key>
+		<array>
+			<string>2_3_100.png</string>
+			<string>2_3_1.png</string>
+			<string>2_3_2.png</string>
+			<string>2_3_3.png</string>
+			<string>2_3_4.png</string>
+			<string>2_3_5.png</string>
+			<string>2_3_6.png</string>
+			<string>2_3_7.png</string>
+			<string></string>
+			<string>3-дорадо.png</string>
+		</array>
+		<key>manufacturer</key>
+		<string>Our chief</string>
+		<key>name</key>
+		<string>Baked Sea Bream with Country-Style Vegetables</string>
+		<key>persons</key>
+		<string>Serves 4</string>
+		<key>steps</key>
+		<array>
+			<string>Peel the potatoes and cut along into thin circles. Cube the peppers, zucchini and aubergine remembering to peel the skin off the zucchini and the aubergine first.</string>
+			<string>Prepare the fish: cut out the gills but leave the skin with the scales on which helps lock in the flavours while baking. Make a long cut along the belly of the fish head to tail, remove the guts.</string>
+			<string>Wash the resulting fillets thoroughly under running cold water and dry well with paper towels. It’s important not to leave any blood on the fish as it would give it a bitter taste</string>
+			<string>Salt and pepper the fish inside and out, drizzle with olive oil. Cut the whole bulb of garlic across in half and put inside the fish along with the rosemary and the thyme. Place on a baking tray.</string>
+			<string>Salt all the vegetables and add freshly ground black pepper, drizzle with olive oil and out onto the baking tray with the fish.</string>
+			<string>Place in the oven preheated to 200o C for 20 mins. Check if the fish is ready by trying to remove the fin on the back. It’s ready if the fin comes off easily</string>
+			<string>The skin with the scales is then removed. Put out onto a plate with the vegetables, drizzle with olive oil.</string>
+		</array>
+	</dict>
+	<key>8</key>
+	<dict>
+		<key>ingredsPhoto</key>
+		<string>2_4_ingreds.png</string>
+		<key>ingreds_order</key>
+		<array>
+			<integer>45</integer>
+			<integer>11</integer>
+			<integer>10</integer>
+			<integer>46</integer>
+			<integer>47</integer>
+			<integer>48</integer>
+		</array>
+		<key>ingredients</key>
+		<dict>
+			<key>45</key>
+			<string>400g.</string>
+			<key>11</key>
+			<string>500g.</string>
+			<key>10</key>
+			<string>x4</string>
+			<key>46</key>
+			<string>x3</string>
+			<key>47</key>
+			<string>500g.</string>
+			<key>48</key>
+			<string>for decoration</string>
+		</dict>
+		<key>imgs</key>
+		<array>
+			<string>2_4_100.png</string>
+			<string>2_4_1.png</string>
+			<string>2_4_2.png</string>
+			<string>2_4_3.png</string>
+			<string>2_4_4.png</string>
+			<string>2_4_5.png</string>
+			<string>2_4_6.png</string>
+			<string>2_4_7.png</string>
+			<string></string>
+			<string>4-мусс.png</string>
+		</array>
+		<key>manufacturer</key>
+		<string>Izekelle Barbuto</string>
+		<key>name</key>
+		<string>Lemon Mousse with Strawberry Sauce</string>
+		<key>persons</key>
+		<string>Serves 4</string>
+		<key>steps</key>
+		<array>
+			<string>Collect the zest of one of the lemons with a grater.</string>
+			<string>Squeeze the juice out of both lemons using a lemon juicer.</string>
+			<string>Separate the egg whites from the yolks, put all the whites into a cup.</string>
+			<string>Whip the egg whites with sugar (300g.) into thick foam.</string>
+			<string>Whip the cream separately, then combine with lemon juice, lemon zest and whipped egg whites. Mix all together stirring thoroughly.</string>
+			<string>Soak gelatine sheets in cold water for 10 minutes. When the sheets are soft and have absorbed all the water put in a warm frying pan and mix with approx. 200ml. of water and heat gently over small heat. Put the warm gelatine mixture into the mousse mixture, stir well, move into a ceramic bowl and leave in the fridge for 3 hours.</string>
+			<string>Wash the strawberries. Blend with 100g. sugar.</string>
+		</array>
+	</dict>
+</dict>
+</plist>

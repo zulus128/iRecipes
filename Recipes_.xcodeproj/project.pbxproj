@@ -13,6 +13,12 @@
 		DD9C984B14B2BD1000FA7056 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD9C984514B2BD1000FA7056 /* InfoPlist.strings */; };
 		DD9C984C14B2BD1000FA7056 /* ingredients.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C984714B2BD1000FA7056 /* ingredients.plist */; };
 		DD9C984D14B2BD1000FA7056 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9C984914B2BD1000FA7056 /* MainWindow.xib */; };
+		DD9C985514B2C2B300FA7056 /* groups.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C985314B2C2B300FA7056 /* groups.plist */; };
+		DD9C985814B2C2CE00FA7056 /* groups.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C985614B2C2CE00FA7056 /* groups.plist */; };
+		DD9C985D14B2C3EB00FA7056 /* anons.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C985914B2C3EB00FA7056 /* anons.plist */; };
+		DD9C985E14B2C3EB00FA7056 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C985B14B2C3EB00FA7056 /* recipes.plist */; };
+		DD9C986314B2C40600FA7056 /* anons.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C985F14B2C40600FA7056 /* anons.plist */; };
+		DD9C986414B2C40600FA7056 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD9C986114B2C40600FA7056 /* recipes.plist */; };
 		FA02F224146DB87F008F0C7B /* 1_1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = FA02F21D146DB87F008F0C7B /* 1_1_1.png */; };
 		FA02F225146DB87F008F0C7B /* 1_1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = FA02F21E146DB87F008F0C7B /* 1_1_2.png */; };
 		FA02F226146DB87F008F0C7B /* 1_1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = FA02F21F146DB87F008F0C7B /* 1_1_3.png */; };
@@ -29,8 +35,6 @@
 		FA0BE3311428F01900F0D595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BE3301428F01900F0D595 /* main.m */; };
 		FA0BE3341428F01900F0D595 /* Recipes_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BE3331428F01900F0D595 /* Recipes_AppDelegate.m */; };
 		FA0BE3371428F01900F0D595 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA0BE3351428F01900F0D595 /* MainWindow.xib */; };
-		FA0BE3681428F0E700F0D595 /* groups.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA0BE3671428F0E700F0D595 /* groups.plist */; };
-		FA0BE36A1428F19500F0D595 /* recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA0BE3691428F19500F0D595 /* recipes.plist */; };
 		FA0BE36D1428F1F000F0D595 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BE36C1428F1F000F0D595 /* Recipe.m */; };
 		FA0BE3701428F1FE00F0D595 /* Pack.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BE36F1428F1FE00F0D595 /* Pack.m */; };
 		FA0BE3791428F98600F0D595 /* Recipes_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0BE3771428F98600F0D595 /* Recipes_ViewController.m */; };
@@ -127,7 +131,6 @@
 		FAB9E2B3142A6A4900BACCDB /* OnePackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E2B1142A6A4900BACCDB /* OnePackViewController.xib */; };
 		FAB9E2BD142A761600BACCDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB9E2BC142A761600BACCDB /* QuartzCore.framework */; };
 		FABC88AC1496774A00E526BB /* oproekte_ver4.png in Resources */ = {isa = PBXBuildFile; fileRef = FABC88AB1496774A00E526BB /* oproekte_ver4.png */; };
-		FAC3165E142F88DF00DEF9F9 /* anons.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC3165D142F88DF00DEF9F9 /* anons.plist */; };
 		FAC7A2F9146C835F005FDE43 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A2F8146C835F005FDE43 /* background.png */; };
 		FAC7A2FC146C836B005FDE43 /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A2FA146C836B005FDE43 /* back2.png */; };
 		FAC7A2FD146C836B005FDE43 /* background_and_back2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A2FB146C836B005FDE43 /* background_and_back2.png */; };
@@ -180,6 +183,12 @@
 		DD9C984614B2BD1000FA7056 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = InfoPlist.strings; sourceTree = "<group>"; };
 		DD9C984814B2BD1000FA7056 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ingredients.plist; sourceTree = "<group>"; };
 		DD9C984A14B2BD1000FA7056 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = MainWindow.xib; sourceTree = "<group>"; };
+		DD9C985414B2C2B300FA7056 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = groups.plist; sourceTree = "<group>"; };
+		DD9C985714B2C2CE00FA7056 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = groups.plist; sourceTree = "<group>"; };
+		DD9C985A14B2C3EB00FA7056 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = anons.plist; sourceTree = "<group>"; };
+		DD9C985C14B2C3EB00FA7056 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = recipes.plist; sourceTree = "<group>"; };
+		DD9C986014B2C40600FA7056 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = anons.plist; sourceTree = "<group>"; };
+		DD9C986214B2C40600FA7056 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = recipes.plist; sourceTree = "<group>"; };
 		FA02F21D146DB87F008F0C7B /* 1_1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_1_1.png; sourceTree = "<group>"; };
 		FA02F21E146DB87F008F0C7B /* 1_1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_1_2.png; sourceTree = "<group>"; };
 		FA02F21F146DB87F008F0C7B /* 1_1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_1_3.png; sourceTree = "<group>"; };
@@ -201,8 +210,6 @@
 		FA0BE3321428F01900F0D595 /* Recipes_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recipes_AppDelegate.h; sourceTree = "<group>"; };
 		FA0BE3331428F01900F0D595 /* Recipes_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipes_AppDelegate.m; sourceTree = "<group>"; };
 		FA0BE3361428F01900F0D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		FA0BE3671428F0E700F0D595 /* groups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = groups.plist; sourceTree = "<group>"; };
-		FA0BE3691428F19500F0D595 /* recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = recipes.plist; sourceTree = "<group>"; };
 		FA0BE36B1428F1F000F0D595 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
 		FA0BE36C1428F1F000F0D595 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
 		FA0BE36E1428F1FE00F0D595 /* Pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pack.h; sourceTree = "<group>"; };
@@ -307,7 +314,6 @@
 		FAB9E2B1142A6A4900BACCDB /* OnePackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnePackViewController.xib; sourceTree = "<group>"; };
 		FAB9E2BC142A761600BACCDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FABC88AB1496774A00E526BB /* oproekte_ver4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oproekte_ver4.png; sourceTree = "<group>"; };
-		FAC3165D142F88DF00DEF9F9 /* anons.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = anons.plist; sourceTree = "<group>"; };
 		FAC7A2F8146C835F005FDE43 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		FAC7A2FA146C836B005FDE43 /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
 		FAC7A2FB146C836B005FDE43 /* background_and_back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_and_back2.png; sourceTree = "<group>"; };
@@ -371,6 +377,9 @@
 		DD9C983A14B2BCF900FA7056 /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
+				DD9C985914B2C3EB00FA7056 /* anons.plist */,
+				DD9C985B14B2C3EB00FA7056 /* recipes.plist */,
+				DD9C985614B2C2CE00FA7056 /* groups.plist */,
 				DD9C983B14B2BCF900FA7056 /* InfoPlist.strings */,
 				DD9C983D14B2BCF900FA7056 /* ingredients.plist */,
 				DD9C983F14B2BCF900FA7056 /* MainWindow.xib */,
@@ -381,6 +390,9 @@
 		DD9C984414B2BD1000FA7056 /* ru.lproj */ = {
 			isa = PBXGroup;
 			children = (
+				DD9C985F14B2C40600FA7056 /* anons.plist */,
+				DD9C986114B2C40600FA7056 /* recipes.plist */,
+				DD9C985314B2C2B300FA7056 /* groups.plist */,
 				DD9C984514B2BD1000FA7056 /* InfoPlist.strings */,
 				DD9C984714B2BD1000FA7056 /* ingredients.plist */,
 				DD9C984914B2BD1000FA7056 /* MainWindow.xib */,
@@ -490,11 +502,8 @@
 			children = (
 				FAC7A309146C87F9005FDE43 /* fonts */,
 				FA0BE37B142901B400F0D595 /* imgs */,
-				FA0BE3671428F0E700F0D595 /* groups.plist */,
-				FA0BE3691428F19500F0D595 /* recipes.plist */,
 				FAB9E299142A4B1800BACCDB /* categories.plist */,
 				FAB9E29E142A4B2D00BACCDB /* instruments.plist */,
-				FAC3165D142F88DF00DEF9F9 /* anons.plist */,
 			);
 			name = resources;
 			sourceTree = "<group>";
@@ -828,8 +837,6 @@
 			files = (
 				FA0BE32E1428F01900F0D595 /* InfoPlist.strings in Resources */,
 				FA0BE3371428F01900F0D595 /* MainWindow.xib in Resources */,
-				FA0BE3681428F0E700F0D595 /* groups.plist in Resources */,
-				FA0BE36A1428F19500F0D595 /* recipes.plist in Resources */,
 				FA0BE37A1428F98600F0D595 /* Recipes_ViewController.xib in Resources */,
 				FA0BE38F142906AF00F0D595 /* VideosViewController.xib in Resources */,
 				FA0BE394142906C000F0D595 /* AnonsViewController.xib in Resources */,
@@ -838,7 +845,6 @@
 				FAB9E29F142A4B2D00BACCDB /* instruments.plist in Resources */,
 				FAB9E2B3142A6A4900BACCDB /* OnePackViewController.xib in Resources */,
 				FA754066142B994A002A70AE /* OneRecipeViewController.xib in Resources */,
-				FAC3165E142F88DF00DEF9F9 /* anons.plist in Resources */,
 				FAAF1FB4146C2DB30060E5C8 /* About_project_big.png in Resources */,
 				FAAF1FB5146C2DB30060E5C8 /* About_project.png in Resources */,
 				FAAF1FB6146C2DB30060E5C8 /* Anons_big.png in Resources */,
@@ -971,6 +977,12 @@
 				DD9C984B14B2BD1000FA7056 /* InfoPlist.strings in Resources */,
 				DD9C984C14B2BD1000FA7056 /* ingredients.plist in Resources */,
 				DD9C984D14B2BD1000FA7056 /* MainWindow.xib in Resources */,
+				DD9C985514B2C2B300FA7056 /* groups.plist in Resources */,
+				DD9C985814B2C2CE00FA7056 /* groups.plist in Resources */,
+				DD9C985D14B2C3EB00FA7056 /* anons.plist in Resources */,
+				DD9C985E14B2C3EB00FA7056 /* recipes.plist in Resources */,
+				DD9C986314B2C40600FA7056 /* anons.plist in Resources */,
+				DD9C986414B2C40600FA7056 /* recipes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1046,6 +1058,54 @@
 				DD9C984A14B2BD1000FA7056 /* ru */,
 			);
 			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DD9C985314B2C2B300FA7056 /* groups.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9C985414B2C2B300FA7056 /* ru */,
+			);
+			name = groups.plist;
+			sourceTree = "<group>";
+		};
+		DD9C985614B2C2CE00FA7056 /* groups.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9C985714B2C2CE00FA7056 /* en */,
+			);
+			name = groups.plist;
+			sourceTree = "<group>";
+		};
+		DD9C985914B2C3EB00FA7056 /* anons.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9C985A14B2C3EB00FA7056 /* en */,
+			);
+			name = anons.plist;
+			sourceTree = "<group>";
+		};
+		DD9C985B14B2C3EB00FA7056 /* recipes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9C985C14B2C3EB00FA7056 /* en */,
+			);
+			name = recipes.plist;
+			sourceTree = "<group>";
+		};
+		DD9C985F14B2C40600FA7056 /* anons.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9C986014B2C40600FA7056 /* ru */,
+			);
+			name = anons.plist;
+			sourceTree = "<group>";
+		};
+		DD9C986114B2C40600FA7056 /* recipes.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD9C986214B2C40600FA7056 /* ru */,
+			);
+			name = recipes.plist;
 			sourceTree = "<group>";
 		};
 		FA0BE32C1428F01900F0D595 /* InfoPlist.strings */ = {
