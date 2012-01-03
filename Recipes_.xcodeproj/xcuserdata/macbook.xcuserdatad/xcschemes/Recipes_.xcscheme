@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.8">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FA0BE31E1428F01900F0D595"
+               BuildableName = "&#1056;&#1077;&#1094;&#1077;&#1087;&#1090;&#1099; &#1086;&#1090; &#1064;&#1077;&#1092;-&#1087;&#1086;&#1074;&#1072;&#1088;&#1072;.app"
+               BlueprintName = "Recipes_"
+               ReferencedContainer = "container:Recipes_.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FA0BE3421428F01900F0D595"
+               BuildableName = "Recipes_Tests.octest"
+               BlueprintName = "Recipes_Tests"
+               ReferencedContainer = "container:Recipes_.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FA0BE31E1428F01900F0D595"
+            BuildableName = "&#1056;&#1077;&#1094;&#1077;&#1087;&#1090;&#1099; &#1086;&#1090; &#1064;&#1077;&#1092;-&#1087;&#1086;&#1074;&#1072;&#1088;&#1072;.app"
+            BlueprintName = "Recipes_"
+            ReferencedContainer = "container:Recipes_.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      displayScaleIsEnabled = "NO"
+      displayScale = "1.00"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Distribution"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FA0BE31E1428F01900F0D595"
+            BuildableName = "&#1056;&#1077;&#1094;&#1077;&#1087;&#1090;&#1099; &#1086;&#1090; &#1064;&#1077;&#1092;-&#1087;&#1086;&#1074;&#1072;&#1088;&#1072;.app"
+            BlueprintName = "Recipes_"
+            ReferencedContainer = "container:Recipes_.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      displayScaleIsEnabled = "NO"
+      displayScale = "1.00"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "FA0BE31E1428F01900F0D595"
+            BuildableName = "&#1056;&#1077;&#1094;&#1077;&#1087;&#1090;&#1099; &#1086;&#1090; &#1064;&#1077;&#1092;-&#1087;&#1086;&#1074;&#1072;&#1088;&#1072;.app"
+            BlueprintName = "Recipes_"
+            ReferencedContainer = "container:Recipes_.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
