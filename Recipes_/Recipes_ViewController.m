@@ -71,7 +71,7 @@
     navTitleLabel.textColor=[UIColor whiteColor];
     navTitleLabel.textAlignment=UITextAlignmentCenter;
     navTitleLabel.font=[UIFont fontWithName:BASE_FONT_BOLD size:16];
-    navTitleLabel.text=@"Блюдо за 7 шагов";
+    navTitleLabel.text=NSLocalizedString(@"Блюдо за 7 шагов", @"Блюдо за 7 шагов");
     [navTitleView addSubview:navTitleLabel];
     self.navigationItem.titleView=navTitleView;
     [navTitleLabel release];
@@ -158,7 +158,7 @@
             CGImageRef imgRef=self.tabBarItem.image.CGImage;
             self.tabBarItem.image=[UIImage imageWithCGImage:imgRef scale:2.0f orientation:UIImageOrientationUp];
         }
-        UIBarButtonItem *newBackButton=[[UIBarButtonItem alloc] initWithTitle:@"Назад" style:UIBarButtonItemStyleBordered target:nil action:nil];
+        UIBarButtonItem *newBackButton=[[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Назад", @"Назад") style:UIBarButtonItemStyleBordered target:nil action:nil];
         [self.navigationItem setBackBarButtonItem:newBackButton];
         [newBackButton release];
     }
@@ -199,7 +199,7 @@
     NSLog(@"Two seconds before fading splash...");
     [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(performTransitionFromSplash) userInfo:nil repeats:NO];
     //
-    self.title=@"Рецепты";
+    self.title=NSLocalizedString(@"Рецепты", @"Рецепты");
     //читаем нужные курсы и кладем в packs;
     packs=[[NSMutableArray alloc] init];
     [self createCourses];

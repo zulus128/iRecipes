@@ -288,7 +288,7 @@
     navTitleLabel.textColor=[UIColor whiteColor];
     navTitleLabel.textAlignment=UITextAlignmentCenter;
     navTitleLabel.font=[UIFont fontWithName:BASE_FONT_BOLD size:18];
-    navTitleLabel.text=@"Блюдо";
+    navTitleLabel.text=NSLocalizedString(@"Блюдо", @"Блюдо");
     [navTitleView addSubview:navTitleLabel];
     self.navigationItem.titleView=navTitleView;
     [navTitleLabel release];
@@ -424,7 +424,7 @@
     stepsLabel.backgroundColor=[UIColor clearColor];
     stepsLabel.textAlignment=UITextAlignmentCenter;
     stepsLabel.font=[UIFont fontWithName:BASE_FONT_BOLD size:16];
-    stepsLabel.text=@"Шаги";
+    stepsLabel.text=NSLocalizedString(@"Шаги", @"Шаги");
     stepsLabel.textColor=[UIColor colorWithRed:0.8f green:0.2f blue:0.2f alpha:1];
     [stepsTop addSubview:stepsLabel];
     [stepsLabel release];

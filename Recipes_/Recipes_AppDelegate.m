@@ -28,25 +28,25 @@
     if (![NC.title compare:@"Back"]){
         Recipes_ViewController *VC=[[Recipes_ViewController alloc] initWithNibName:@"Recipes_ViewController" bundle:nil];
         NC.viewControllers=[NSArray arrayWithObject:VC];
-        NC.title=@"Рецепты";
+        NC.title=NSLocalizedString(@"Рецепты", @"Рецепты");
         [VC release];
     }
     else if (![NC.title compare:@"Videos"]){
         VideosViewController *VC=[[VideosViewController alloc] initWithNibName:@"VideosViewController" bundle:nil andNC:NC];
         NC.viewControllers=[NSArray arrayWithObject:VC];
-        NC.title=@"О проекте";
+        NC.title=NSLocalizedString(@"О проекте", @"О проекте");
         [VC release];
     }
     else if (![NC.title compare:@"Anons"]){
         AnonsViewController *VC=[[AnonsViewController alloc] initWithNibName:@"AnonsViewController" bundle:nil andNC:NC];
         NC.viewControllers=[NSArray arrayWithObject:VC];
-        NC.title=@"Анонс";
+        NC.title=NSLocalizedString(@"Анонс", @"Анонс");
         [VC release];
     }
     else if (![NC.title compare:@"More"]){
         MoreViewController *VC=[[MoreViewController alloc] initWithNibName:@"MoreViewController" bundle:nil andNC:NC];
         NC.viewControllers=[NSArray arrayWithObject:VC];
-        NC.title=@"Our thanks";
+        NC.title=NSLocalizedString(@"Our thanks", @"Our thanks");
         [VC release];
     }
     MyNavController *myNC=[[[MyNavController alloc] initwithUINavigationController:NC] autorelease];

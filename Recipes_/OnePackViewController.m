@@ -43,7 +43,7 @@
     navTitleLabel.textColor=[UIColor whiteColor];
     navTitleLabel.textAlignment=UITextAlignmentCenter;
     navTitleLabel.font=[UIFont fontWithName:BASE_FONT_BOLD size:18];
-    navTitleLabel.text=@"Рецепты";
+    navTitleLabel.text=NSLocalizedString(@"Рецепты", @"Рецепты");
     [navTitleView addSubview:navTitleLabel];
     self.navigationItem.titleView=navTitleView;
     [navTitleLabel release];

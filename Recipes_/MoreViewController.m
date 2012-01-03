@@ -40,9 +40,9 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.nc=navCtl;
-        self.navigationController.title=@"Our thanks";
-        self.nc.title=@"Our thanks";
-        self.title=@"Our thanks";
+        self.navigationController.title=NSLocalizedString(@"Our thanks", @"Our thanks");
+        self.nc.title=NSLocalizedString(@"Our thanks", @"Our thanks");
+        self.title=NSLocalizedString(@"Our thanks", @"Our thanks");
         if ([OneRecipeViewController physycalSizeOfScreen:[UIScreen mainScreen]].width==320)
             self.tabBarItem.image=[UIImage imageNamed:@"Our_thanks.png"];
         else{

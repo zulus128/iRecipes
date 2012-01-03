@@ -70,10 +70,10 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.nc=navCtl;
-        self.navigationController.title=@"О проекте";
-        self.nc.title=@"О проекте";
-        self.title=@"О проекте";
-        self.tabBarItem.title=@"О проекте";
+        self.navigationController.title=NSLocalizedString(@"О проекте", @"О проекте");
+        self.nc.title=NSLocalizedString(@"О проекте", @"О проекте");
+        self.title=NSLocalizedString(@"О проекте", @"О проекте");
+        self.tabBarItem.title=NSLocalizedString(@"О проекте", @"О проекте");
         if ([OneRecipeViewController physycalSizeOfScreen:[UIScreen mainScreen]].width==320)
             self.tabBarItem.image=[UIImage imageNamed:@"About_project.png"];
         else{
@@ -119,7 +119,7 @@
     [navTitleLabel release];
     [navTitleView release];
     //
-    self.title=@"О проекте";
+    self.title=NSLocalizedString(@"О проекте", @"О проекте");
     self.navigationController.navigationBar.barStyle=UIBarStyleBlack;
     self.nc.navigationBar.barStyle=UIBarStyleBlack;
     self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
