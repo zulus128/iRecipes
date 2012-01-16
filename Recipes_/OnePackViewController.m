@@ -54,6 +54,10 @@
     UIImageView *secBg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back2.png"]];
     secBg.frame=CGRectMake(0, -1, secBg.image.size.width/2, secBg.image.size.height/2);
     [self.mainView addSubview:secBg];
+    
+    
+//    return;
+    
     //setting margins, +15 или +30 из-за отступа bg, 
     CGFloat x=7+15;
     if ([UIScreen mainScreen].applicationFrame.size.width!=320)

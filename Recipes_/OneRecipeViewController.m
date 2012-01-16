@@ -307,7 +307,8 @@
     //incresing y and x
     y+=imgView.frame.size.height + 5;
     //вставляем графику
-    UIImageView *top_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"top-back-center.png"]];
+//    UIImageView *top_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"top-back-center.png"]];
+    UIImageView *top_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_grey_top.png"]];
     if ([UIScreen mainScreen].applicationFrame.size.width==320)
         top_back.frame=CGRectMake(0, y, top_back.image.size.width/2, top_back.image.size.height/2);
     else
@@ -315,8 +316,14 @@
     [self.mainView addSubview:top_back];
     //increasing y
     y+=top_back.frame.size.height;
+    
+    
+    
+//    return;
+    
     //adding main back view
-    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back-center.png"]];
+//    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back-center.png"]];
+    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_grey_center.png"]];
     main_back.clipsToBounds=YES;
     if ([UIScreen mainScreen].applicationFrame.size.width==320)
         main_back.frame=CGRectMake(0, y, main_back.frame.size.width/2, main_back.frame.size.height);
@@ -413,7 +420,8 @@
     //increasing y
     y+=15;
     //adding steps top and label
-    UIImageView *stepsTop=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back-steps.png"]];
+//    UIImageView *stepsTop=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back-steps.png"]];
+    UIImageView *stepsTop=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"steps_field.png"]];
     if ([UIScreen mainScreen].applicationFrame.size.width==320)
         stepsTop.frame=CGRectMake(0, y, stepsTop.image.size.width/2, stepsTop.image.size.height*0.6);
     else
@@ -429,7 +437,8 @@
     [stepsTop addSubview:stepsLabel];
     [stepsLabel release];
     //increasing y
-    y+=stepsTop.frame.size.height-5;
+//    y+=stepsTop.frame.size.height-5;
+    y+=stepsTop.frame.size.height;
     //rendering steps
     NSString *eachStep;
     UIImage *eachImg;
@@ -438,7 +447,8 @@
         eachImg=[UIImage imageNamed:[curRecipe.imgs objectAtIndex:i+1]]; //MUST BE UNCOMMENTED AFTER MAKING PATHS TO REAL IMGS
         //adding image
         UIImageView *stepImgView=[[UIImageView alloc] initWithImage:eachImg];
-        stepImgView.frame=CGRectMake(x+21.5, y, eachImg.size.width/2, eachImg.size.height/2);
+//        stepImgView.frame=CGRectMake(x+21.5, y, eachImg.size.width/2, eachImg.size.height/2);
+        stepImgView.frame=CGRectMake(x + 4, y, eachImg.size.width/2, eachImg.size.height/2);
         [main_back addSubview:stepImgView];
         [stepImgView release];
         //adding button
@@ -456,7 +466,8 @@
         stepText.text=[NSString stringWithFormat:@"%i. %@", i+1, eachStep];
         stepText.font=[UIFont fontWithName:@"Arial-ItalicMT" size:15];
         stepText.frame=CGRectMake(x, y, stepImgView.frame.size.width, stepText.contentSize.height);
-        stepText.frame=CGRectMake(x+19, y, stepImgView.frame.size.width, stepText.contentSize.height);
+//        stepText.frame=CGRectMake(x+19, y, stepImgView.frame.size.width, stepText.contentSize.height);
+        stepText.frame=CGRectMake(x, y, stepImgView.frame.size.width, stepText.contentSize.height);
         stepText.backgroundColor=[UIColor clearColor];
         [main_back addSubview:stepText];
         [stepText release];
@@ -466,7 +477,8 @@
     //changing main back height
     main_back.frame=CGRectMake(main_back.frame.origin.x, main_back.frame.origin.y, main_back.frame.size.width, y);
     //adding bottom back
-    UIImageView *back_bottom=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bottom-back-center.png"]];
+//    UIImageView *back_bottom=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bottom-back-center.png"]];
+    UIImageView *back_bottom=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_grey_bottom.png"]];
     if ([UIScreen mainScreen].applicationFrame.size.width==320)
         back_bottom.frame=CGRectMake(0, main_back.frame.origin.y + main_back.frame.size.height, back_bottom.image.size.width/2, back_bottom.image.size.height/2);
     else
