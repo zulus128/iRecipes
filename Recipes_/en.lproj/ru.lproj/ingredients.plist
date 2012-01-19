@@ -99,8 +99,20 @@
 	<key>48</key>
 	<string>Мята</string>
 	<key>49</key>
-	<string></string>
+	<string>Моцарелла ди буффало</string>
 	<key>50</key>
-	<string></string>
+	<string>Помидоры очищенные</string>
+	<key>51</key>
+	<string>Филе тунца</string>
+	<key>52</key>
+	<string>Анчоусы</string>
+	<key>53</key>
+	<string>Каперсы</string>
+	<key>54</key>
+	<string>Маскарпоне</string>
+	<key>55</key>
+	<string>Печенье Савоярди</string>
+	<key>56</key>
+	<string>Кофе свежесваренный</string>
 </dict>
 </plist>

@@ -51,8 +51,8 @@
     //
     [self.view addSubview:mainView];
     //setting 2nd background for recipes
-//    UIImageView *secBg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back2.png"]];
-    UIImageView *secBg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_for_small_photo.png"]];
+    UIImageView *secBg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back2.png"]];
+//    UIImageView *secBg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_for_small_photo.png"]];
     secBg.frame=CGRectMake(0, -1, secBg.image.size.width/2, secBg.image.size.height/2);
     [self.mainView addSubview:secBg];
     

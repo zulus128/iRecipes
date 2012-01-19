@@ -34,5 +34,21 @@
 		<key>videos</key>
 		<array/>
 	</dict>
+	<key>3 курс</key>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>img</key>
+		<string>3set.png</string>
+		<key>recipes</key>
+		<array>
+			<integer>9</integer>
+			<string>10</string>
+			<string>11</string>
+			<string>12</string>
+		</array>
+		<key>videos</key>
+		<array/>
+	</dict>
 </dict>
 </plist>

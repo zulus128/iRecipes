@@ -126,7 +126,6 @@
 		DDDF7CDB14C64DC4006ED814 /* domashnie_spagett_2screeni.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDF7CD614C64DC3006ED814 /* domashnie_spagett_2screeni.png */; };
 		DDDF7CDC14C64DC4006ED814 /* Karpacho_2screen.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDF7CD714C64DC4006ED814 /* Karpacho_2screen.png */; };
 		DDDF7CDD14C64DC4006ED814 /* Tunez_2screen.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDF7CD814C64DC4006ED814 /* Tunez_2screen.png */; };
-		DDDF7CDF14C6571C006ED814 /* back_for_small_photo.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDF7CDE14C6571C006ED814 /* back_for_small_photo.png */; };
 		F238101F14B6AAA900D960D3 /* anons.plist in Resources */ = {isa = PBXBuildFile; fileRef = F238100914B6AAA900D960D3 /* anons.plist */; };
 		F238102014B6AAA900D960D3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F238100B14B6AAA900D960D3 /* Default.png */; };
 		F238102114B6AAA900D960D3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F238100D14B6AAA900D960D3 /* Default@2x.png */; };
@@ -328,20 +327,21 @@
 		DDDF7CD614C64DC3006ED814 /* domashnie_spagett_2screeni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = domashnie_spagett_2screeni.png; sourceTree = "<group>"; };
 		DDDF7CD714C64DC4006ED814 /* Karpacho_2screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Karpacho_2screen.png; sourceTree = "<group>"; };
 		DDDF7CD814C64DC4006ED814 /* Tunez_2screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunez_2screen.png; sourceTree = "<group>"; };
-		DDDF7CDE14C6571C006ED814 /* back_for_small_photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_for_small_photo.png; sourceTree = "<group>"; };
-		F238100A14B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = anons.plist; sourceTree = "<group>"; };
-		F238100C14B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = Default.png; sourceTree = "<group>"; };
-		F238100E14B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F238101014B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = groups.plist; sourceTree = "<group>"; };
-		F238101214B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		F238101414B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = ingredients.plist; sourceTree = "<group>"; };
-		F238101614B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		F238101814B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MainWindow.xib; sourceTree = "<group>"; };
-		F238101A14B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = oproekte.png; sourceTree = "<group>"; };
-		F238101C14B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = ourthanks.png; sourceTree = "<group>"; };
-		F238101E14B6AAA900D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = recipes.plist; sourceTree = "<group>"; };
-		F238105314B6AB4100D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = 1set.png; sourceTree = "<group>"; };
-		F238105514B6AB4100D960D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = 2set.png; sourceTree = "<group>"; };
+		F27CC2C914C7C3310076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/ru.lproj/MainWindow.xib; sourceTree = "<absolute>"; };
+		F27CC2CA14C7C3310076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/ru.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		F27CC2CB14C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/oproekte.png; sourceTree = "<absolute>"; };
+		F27CC2CC14C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = "/Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/Default@2x.png"; sourceTree = "<absolute>"; };
+		F27CC2CD14C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/Default.png; sourceTree = "<absolute>"; };
+		F27CC2CE14C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		F27CC2CF14C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/MainWindow.xib; sourceTree = "<absolute>"; };
+		F27CC2D014C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/Localizable.strings; sourceTree = "<absolute>"; };
+		F27CC2D114C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/2set.png; sourceTree = "<absolute>"; };
+		F27CC2D214C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/anons.plist; sourceTree = "<absolute>"; };
+		F27CC2D314C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/ingredients.plist; sourceTree = "<absolute>"; };
+		F27CC2D414C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/groups.plist; sourceTree = "<absolute>"; };
+		F27CC2D514C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/1set.png; sourceTree = "<absolute>"; };
+		F27CC2D614C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/ourthanks.png; sourceTree = "<absolute>"; };
+		F27CC2D714C7C3320076BB71 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = /Users/mahmood1/Documents/iRecipes/Recipes_/en.lproj/ru.lproj/recipes.plist; sourceTree = "<absolute>"; };
 		FA06FD041462DE2E002877D1 /* MyNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavController.h; sourceTree = "<group>"; };
 		FA06FD051462DE2E002877D1 /* MyNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavController.m; sourceTree = "<group>"; };
 		FA0BE31F1428F01900F0D595 /* iRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -349,12 +349,10 @@
 		FA0BE3251428F01900F0D595 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA0BE3271428F01900F0D595 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FA0BE32B1428F01900F0D595 /* Recipes_-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipes_-Info.plist"; sourceTree = "<group>"; };
-		FA0BE32D1428F01900F0D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA0BE32F1428F01900F0D595 /* Recipes_-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipes_-Prefix.pch"; sourceTree = "<group>"; };
 		FA0BE3301428F01900F0D595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA0BE3321428F01900F0D595 /* Recipes_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Recipes_AppDelegate.h; sourceTree = "<group>"; };
 		FA0BE3331428F01900F0D595 /* Recipes_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipes_AppDelegate.m; sourceTree = "<group>"; };
-		FA0BE3361428F01900F0D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		FA0BE36B1428F1F000F0D595 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
 		FA0BE36C1428F1F000F0D595 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
 		FA0BE36E1428F1FE00F0D595 /* Pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pack.h; sourceTree = "<group>"; };
@@ -784,7 +782,6 @@
 			isa = PBXGroup;
 			children = (
 				FAC7A2FA146C836B005FDE43 /* back2.png */,
-				DDDF7CDE14C6571C006ED814 /* back_for_small_photo.png */,
 				FAC7A2F8146C835F005FDE43 /* background.png */,
 			);
 			name = background;
@@ -1044,7 +1041,6 @@
 				DDDF7CDB14C64DC4006ED814 /* domashnie_spagett_2screeni.png in Resources */,
 				DDDF7CDC14C64DC4006ED814 /* Karpacho_2screen.png in Resources */,
 				DDDF7CDD14C64DC4006ED814 /* Tunez_2screen.png in Resources */,
-				DDDF7CDF14C6571C006ED814 /* back_for_small_photo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1077,7 +1073,7 @@
 		F238100914B6AAA900D960D3 /* anons.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238100A14B6AAA900D960D3 /* en */,
+				F27CC2D214C7C3320076BB71 /* ru */,
 			);
 			name = anons.plist;
 			sourceTree = "<group>";
@@ -1085,7 +1081,7 @@
 		F238100B14B6AAA900D960D3 /* Default.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238100C14B6AAA900D960D3 /* en */,
+				F27CC2CD14C7C3320076BB71 /* ru */,
 			);
 			name = Default.png;
 			sourceTree = "<group>";
@@ -1093,7 +1089,7 @@
 		F238100D14B6AAA900D960D3 /* Default@2x.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238100E14B6AAA900D960D3 /* en */,
+				F27CC2CC14C7C3320076BB71 /* ru */,
 			);
 			name = "Default@2x.png";
 			sourceTree = "<group>";
@@ -1101,7 +1097,7 @@
 		F238100F14B6AAA900D960D3 /* groups.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238101014B6AAA900D960D3 /* en */,
+				F27CC2D414C7C3320076BB71 /* ru */,
 			);
 			name = groups.plist;
 			sourceTree = "<group>";
@@ -1109,7 +1105,7 @@
 		F238101114B6AAA900D960D3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238101214B6AAA900D960D3 /* en */,
+				F27CC2CE14C7C3320076BB71 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1117,7 +1113,7 @@
 		F238101314B6AAA900D960D3 /* ingredients.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238101414B6AAA900D960D3 /* en */,
+				F27CC2D314C7C3320076BB71 /* ru */,
 			);
 			name = ingredients.plist;
 			sourceTree = "<group>";
@@ -1125,7 +1121,7 @@
 		F238101514B6AAA900D960D3 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238101614B6AAA900D960D3 /* en */,
+				F27CC2D014C7C3320076BB71 /* ru */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1133,7 +1129,7 @@
 		F238101714B6AAA900D960D3 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238101814B6AAA900D960D3 /* en */,
+				F27CC2CF14C7C3320076BB71 /* ru */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
@@ -1141,7 +1137,7 @@
 		F238101914B6AAA900D960D3 /* oproekte.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238101A14B6AAA900D960D3 /* en */,
+				F27CC2CB14C7C3320076BB71 /* ru */,
 			);
 			name = oproekte.png;
 			sourceTree = "<group>";
@@ -1149,7 +1145,7 @@
 		F238101B14B6AAA900D960D3 /* ourthanks.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238101C14B6AAA900D960D3 /* en */,
+				F27CC2D614C7C3320076BB71 /* ru */,
 			);
 			name = ourthanks.png;
 			sourceTree = "<group>";
@@ -1157,7 +1153,7 @@
 		F238101D14B6AAA900D960D3 /* recipes.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238101E14B6AAA900D960D3 /* en */,
+				F27CC2D714C7C3320076BB71 /* ru */,
 			);
 			name = recipes.plist;
 			sourceTree = "<group>";
@@ -1165,7 +1161,7 @@
 		F238105214B6AB4100D960D3 /* 1set.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238105314B6AB4100D960D3 /* en */,
+				F27CC2D514C7C3320076BB71 /* ru */,
 			);
 			name = 1set.png;
 			sourceTree = "<group>";
@@ -1173,7 +1169,7 @@
 		F238105414B6AB4100D960D3 /* 2set.png */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F238105514B6AB4100D960D3 /* en */,
+				F27CC2D114C7C3320076BB71 /* ru */,
 			);
 			name = 2set.png;
 			sourceTree = "<group>";
@@ -1181,7 +1177,7 @@
 		FA0BE32C1428F01900F0D595 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FA0BE32D1428F01900F0D595 /* en */,
+				F27CC2CA14C7C3310076BB71 /* ru */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1189,7 +1185,7 @@
 		FA0BE3351428F01900F0D595 /* MainWindow.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FA0BE3361428F01900F0D595 /* en */,
+				F27CC2C914C7C3310076BB71 /* ru */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";
