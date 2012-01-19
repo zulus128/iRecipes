@@ -5,7 +5,7 @@
 	<key>1</key>
 	<dict>
 		<key>ingredsPhoto</key>
-		<string>1_1_ingreds.png</string>
+		<string>1_1_ingreds.jpg</string>
 		<key>ingreds_order</key>
 		<array>
 			<integer>1</integer>
@@ -38,15 +38,15 @@
 		</dict>
 		<key>imgs</key>
 		<array>
-			<string>1_1_100.png</string>
-			<string>1_1_1.png</string>
-			<string>1_1_2.png</string>
-			<string>1_1_3.png</string>
-			<string>1_1_4.png</string>
-			<string>1_1_5.png</string>
-			<string>1_1_6.png</string>
-			<string>1_1_7.png</string>
-			<string>1_1_9.png</string>
+			<string>1_1_100.jpg</string>
+			<string>1_1_1.jpg</string>
+			<string>1_1_2.jpg</string>
+			<string>1_1_3.jpg</string>
+			<string>1_1_4.jpg</string>
+			<string>1_1_5.jpg</string>
+			<string>1_1_6.jpg</string>
+			<string>1_1_7.jpg</string>
+			<string>1_1_9.jpg</string>
 			<string>1-креветки.png</string>
 		</array>
 		<key>manufacturer</key>
@@ -69,7 +69,7 @@
 	<key>2</key>
 	<dict>
 		<key>ingredsPhoto</key>
-		<string>1_2_ingreds.png</string>
+		<string>1_2_ingreds.jpg</string>
 		<key>ingreds_order</key>
 		<array>
 			<integer>9</integer>
@@ -108,14 +108,14 @@
 		</dict>
 		<key>imgs</key>
 		<array>
-			<string>1_2_100.png</string>
-			<string>1_2_1.png</string>
-			<string>1_2_2.png</string>
-			<string>1_2_3.png</string>
-			<string>1_2_4.png</string>
-			<string>1_2_5.png</string>
-			<string>1_2_6.png</string>
-			<string>1_2_7.png</string>
+			<string>1_2_100.jpg</string>
+			<string>1_2_1.jpg</string>
+			<string>1_2_2.jpg</string>
+			<string>1_2_3.jpg</string>
+			<string>1_2_4.jpg</string>
+			<string>1_2_5.jpg</string>
+			<string>1_2_6.jpg</string>
+			<string>1_2_7.jpg</string>
 			<string></string>
 			<string>2-фитучини.png</string>
 		</array>
@@ -139,7 +139,7 @@
 	<key>3</key>
 	<dict>
 		<key>ingredsPhoto</key>
-		<string>1_3_ingreds.png</string>
+		<string>1_3_ingreds.jpg</string>
 		<key>ingreds_order</key>
 		<array>
 			<integer>16</integer>
@@ -181,14 +181,14 @@
 		</dict>
 		<key>imgs</key>
 		<array>
-			<string>1_3_100.png</string>
-			<string>1_3_1.png</string>
-			<string>1_3_2.png</string>
-			<string>1_3_3.png</string>
-			<string>1_3_4.png</string>
-			<string>1_3_5.png</string>
-			<string>1_3_6.png</string>
-			<string>1_3_7.png</string>
+			<string>1_3_100.jpg</string>
+			<string>1_3_1.jpg</string>
+			<string>1_3_2.jpg</string>
+			<string>1_3_3.jpg</string>
+			<string>1_3_4.jpg</string>
+			<string>1_3_5.jpg</string>
+			<string>1_3_6.jpg</string>
+			<string>1_3_7.jpg</string>
 			<string></string>
 			<string>3-мясо.png</string>
 		</array>
@@ -212,7 +212,7 @@
 	<key>4</key>
 	<dict>
 		<key>ingredsPhoto</key>
-		<string>1_4_ingreds.png</string>
+		<string>1_4_ingreds.jpg</string>
 		<key>ingreds_order</key>
 		<array>
 			<integer>11</integer>
@@ -239,14 +239,14 @@
 		</dict>
 		<key>imgs</key>
 		<array>
-			<string>1_4_100.png</string>
-			<string>1_4_1.png</string>
-			<string>1_4_2.png</string>
-			<string>1_4_3.png</string>
-			<string>1_4_4.png</string>
-			<string>1_4_5.png</string>
-			<string>1_4_6.png</string>
-			<string>1_4_7.png</string>
+			<string>1_4_100.jpg</string>
+			<string>1_4_1.jpg</string>
+			<string>1_4_2.jpg</string>
+			<string>1_4_3.jpg</string>
+			<string>1_4_4.jpg</string>
+			<string>1_4_5.jpg</string>
+			<string>1_4_6.jpg</string>
+			<string>1_4_7.jpg</string>
 			<string></string>
 			<string>4-семифредо.png</string>
 		</array>
@@ -270,7 +270,7 @@
 	<key>5</key>
 	<dict>
 		<key>ingredsPhoto</key>
-		<string>2_1_ingreds.png</string>
+		<string>2_1_ingreds.jpg</string>
 		<key>ingreds_order</key>
 		<array>
 			<integer>27</integer>
@@ -312,14 +312,14 @@
 		</dict>
 		<key>imgs</key>
 		<array>
-			<string>2_1_100.png</string>
-			<string>2_1_1.png</string>
-			<string>2_1_2.png</string>
-			<string>2_1_3.png</string>
-			<string>2_1_4.png</string>
-			<string>2_1_5.png</string>
-			<string>2_1_6.png</string>
-			<string>2_1_7.png</string>
+			<string>2_1_100.jpg</string>
+			<string>2_1_1.jpg</string>
+			<string>2_1_2.jpg</string>
+			<string>2_1_3.jpg</string>
+			<string>2_1_4.jpg</string>
+			<string>2_1_5.jpg</string>
+			<string>2_1_6.jpg</string>
+			<string>2_1_7.jpg</string>
 			<string></string>
 			<string>1-ось.png</string>
 		</array>
@@ -343,7 +343,7 @@
 	<key>6</key>
 	<dict>
 		<key>ingredsPhoto</key>
-		<string>2_2_ingreds.png</string>
+		<string>2_2_ingreds.jpg</string>
 		<key>ingreds_order</key>
 		<array>
 			<integer>1</integer>
@@ -397,14 +397,14 @@
 		</dict>
 		<key>imgs</key>
 		<array>
-			<string>2_2_100.png</string>
-			<string>2_2_1.png</string>
-			<string>2_2_2.png</string>
-			<string>2_2_3.png</string>
-			<string>2_2_4.png</string>
-			<string>2_2_5.png</string>
-			<string>2_2_6.png</string>
-			<string>2_2_7.png</string>
+			<string>2_2_100.jpg</string>
+			<string>2_2_1.jpg</string>
+			<string>2_2_2.jpg</string>
+			<string>2_2_3.jpg</string>
+			<string>2_2_4.jpg</string>
+			<string>2_2_5.jpg</string>
+			<string>2_2_6.jpg</string>
+			<string>2_2_7.jpg</string>
 			<string></string>
 			<string>2-ньекки.png</string>
 		</array>
@@ -428,7 +428,7 @@
 	<key>7</key>
 	<dict>
 		<key>ingredsPhoto</key>
-		<string>2_3_ingreds.png</string>
+		<string>2_3_ingreds.jpg</string>
 		<key>ingreds_order</key>
 		<array>
 			<integer>39</integer>
@@ -485,14 +485,14 @@
 		</dict>
 		<key>imgs</key>
 		<array>
-			<string>2_3_100.png</string>
-			<string>2_3_1.png</string>
-			<string>2_3_2.png</string>
-			<string>2_3_3.png</string>
-			<string>2_3_4.png</string>
-			<string>2_3_5.png</string>
-			<string>2_3_6.png</string>
-			<string>2_3_7.png</string>
+			<string>2_3_100.jpg</string>
+			<string>2_3_1.jpg</string>
+			<string>2_3_2.jpg</string>
+			<string>2_3_3.jpg</string>
+			<string>2_3_4.jpg</string>
+			<string>2_3_5.jpg</string>
+			<string>2_3_6.jpg</string>
+			<string>2_3_7.jpg</string>
 			<string></string>
 			<string>3-дорадо.png</string>
 		</array>
@@ -516,7 +516,7 @@
 	<key>8</key>
 	<dict>
 		<key>ingredsPhoto</key>
-		<string>2_4_ingreds.png</string>
+		<string>2_4_ingreds.jpg</string>
 		<key>ingreds_order</key>
 		<array>
 			<integer>45</integer>
@@ -543,14 +543,14 @@
 		</dict>
 		<key>imgs</key>
 		<array>
-			<string>2_4_100.png</string>
-			<string>2_4_1.png</string>
-			<string>2_4_2.png</string>
-			<string>2_4_3.png</string>
-			<string>2_4_4.png</string>
-			<string>2_4_5.png</string>
-			<string>2_4_6.png</string>
-			<string>2_4_7.png</string>
+			<string>2_4_100.jpg</string>
+			<string>2_4_1.jpg</string>
+			<string>2_4_2.jpg</string>
+			<string>2_4_3.jpg</string>
+			<string>2_4_4.jpg</string>
+			<string>2_4_5.jpg</string>
+			<string>2_4_6.jpg</string>
+			<string>2_4_7.jpg</string>
 			<string></string>
 			<string>4-мусс.png</string>
 		</array>
