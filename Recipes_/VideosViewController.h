@@ -18,5 +18,6 @@
 @property (nonatomic, retain) UINavigationController *nc;
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andNC:(UINavigationController *)navCtl;
+- (void)showDialog;
 
 @end

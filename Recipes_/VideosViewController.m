@@ -106,6 +106,25 @@
 
 #pragma mark - View lifecycle
 
+- (void)showDialog {
+
+    UIAlertView* dialog = [[UIAlertView alloc] init];
+    dialog.delegate = self;
+    [dialog setTitle:@"Внимание!"];
+    [dialog setMessage:@"Вы можете обменяться впечатлениями в известных соц. сетях:"];
+    [dialog addButtonWithTitle:@"В Контакте"];
+    [dialog addButtonWithTitle:@"Facebook"];
+    [dialog addButtonWithTitle:@"Отзыв в AppStore"];
+    [dialog addButtonWithTitle:@"Отмена"];
+    [dialog show];
+    [dialog release];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+
+    [self showDialog];
+}
+
 - (void)viewDidLoad
 {
     //setting UIView with UILabel with good font to navTitle
@@ -130,16 +149,42 @@
     [self renderView];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    UIAlertView* dialog = [[UIAlertView alloc] init];
-    [dialog setTitle:@"Внимание!"];
-    [dialog setMessage:@"Все"];
-    [dialog addButtonWithTitle:@"OK"];
-    [dialog addButtonWithTitle:@"OK"];
-    [dialog addButtonWithTitle:@"OK"];
-    [dialog show];
-    [dialog release];
 
+//    [self showDialog];
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+
+    if (buttonIndex == 0){
+        
+//        NSLog(@"Ok");
+        [self showDialog];
+
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://vkontakte.ru/feed#/club34152049"]];
+
+    }
+    else
+    if (buttonIndex == 1){
+        
+        //        NSLog(@"Ok");
+        [self showDialog];
+        
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.facebook.com/pages/7stepsmeal/311972852176788"]];
+
+    }
+    else
+        if (buttonIndex == 2){
+            
+            //        NSLog(@"Ok");
+            [self showDialog];
+            
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/ru/app//id483076445?mt=8"]];
+            
+        }
+    else {
+        
+        self.tabBarController.selectedIndex = 1;
+    }
 }
 
 - (void)viewDidUnload

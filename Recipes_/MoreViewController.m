@@ -29,6 +29,31 @@
     [main addSubview:main_back];
     //adding text
     
+    
+        UITextView *delgusto=[[UITextView alloc] initWithFrame:CGRectMake(70, 275, self.view.frame.size.width, 40)];
+        delgusto.text=@"http://delgusto.ru";
+        delgusto.backgroundColor=[UIColor clearColor];
+        delgusto.textColor=[UIColor whiteColor];
+        delgusto.editable=NO;
+        delgusto.font=[UIFont fontWithName:BASE_FONT size:16];
+        delgusto.dataDetectorTypes=UIDataDetectorTypeAll;
+        delgusto.scrollEnabled = NO;
+//        delgusto.textAlignment=UITextAlignmentCenter;
+        [main addSubview:delgusto];
+        [delgusto release];
+    
+    UITextView *delgusto1=[[UITextView alloc] initWithFrame:CGRectMake(75, 1300, self.view.frame.size.width, 40)];
+    delgusto1.text=@"http://moslight.com";
+    delgusto1.backgroundColor=[UIColor clearColor];
+    delgusto1.textColor=[UIColor whiteColor];
+    delgusto1.editable=NO;
+    delgusto1.font=[UIFont fontWithName:BASE_FONT size:16];
+    delgusto1.dataDetectorTypes=UIDataDetectorTypeAll;
+    delgusto1.scrollEnabled = NO;
+    //        delgusto.textAlignment=UITextAlignmentCenter;
+    [main addSubview:delgusto1];
+    [delgusto1 release];
+
     //setting content size
     main.contentSize=CGSizeMake(main_back.frame.size.width, main_back.frame.size.height);
     //releasing
