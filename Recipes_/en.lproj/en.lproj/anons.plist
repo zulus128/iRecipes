@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>anons_salat_roastbeef.png</string>
+		<key>name</key>
+		<string>Салат ростбиф</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>anons_govyadina.png</string>
+		<key>name</key>
+		<string>Говядина в соусе «зеленый перец»</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>anons_boloniese.png</string>
+		<key>name</key>
+		<string>Спагетти в соусе Болоньезе</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>anons_flan.png</string>
+		<key>name</key>
+		<string>Шоколадный флан с ванильным мороженным</string>
+	</dict>
+</array>
+</plist>
