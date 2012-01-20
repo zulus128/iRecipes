@@ -21,7 +21,8 @@
     main.backgroundColor=[UIColor clearColor];
     [self.view addSubview:main];
     //
-    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"oproekte.png"]];
+//    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"oproekte.png"]];
+    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
     if ([OneRecipeViewController physycalSizeOfScreen:[UIScreen mainScreen]].width==320)
         main_back.frame=CGRectMake(0, 0, main_back.image.size.width/2, main_back.image.size.height/2);
     else
@@ -48,19 +49,20 @@
     mainText.frame=CGRectMake(x-5, y, main_back.frame.size.width-50, mainText.contentSize.height);
     mainText.userInteractionEnabled=NO;
     [main_back addSubview:mainText];*/
-    //adding e-mail
-    UITextView *mail=[[UITextView alloc] initWithFrame:CGRectMake(0, main_back.frame.size.height+10, self.view.frame.size.width, 40)];
-    mail.text=@"Info@7stepsmeal.com";
-    mail.backgroundColor=[UIColor clearColor];
-    mail.textColor=[UIColor whiteColor];
-    mail.editable=NO;
-    mail.font=[UIFont fontWithName:BASE_FONT size:20];
-    mail.dataDetectorTypes=UIDataDetectorTypeAll;
-    mail.textAlignment=UITextAlignmentCenter;
-    [self.main addSubview:mail];
-    [mail release];
-    //setting content size
-    main.contentSize=CGSizeMake(main_back.frame.size.width, mail.frame.origin.y+mail.frame.size.height+5);
+
+//    //adding e-mail
+//    UITextView *mail=[[UITextView alloc] initWithFrame:CGRectMake(0, main_back.frame.size.height+10, self.view.frame.size.width, 40)];
+//    mail.text=@"Info@7stepsmeal.com";
+//    mail.backgroundColor=[UIColor clearColor];
+//    mail.textColor=[UIColor whiteColor];
+//    mail.editable=NO;
+//    mail.font=[UIFont fontWithName:BASE_FONT size:20];
+//    mail.dataDetectorTypes=UIDataDetectorTypeAll;
+//    mail.textAlignment=UITextAlignmentCenter;
+//    [self.main addSubview:mail];
+//    [mail release];
+//    //setting content size
+//    main.contentSize=CGSizeMake(main_back.frame.size.width, mail.frame.origin.y+mail.frame.size.height+5);
     //releasing
     [main_back release];
 }
@@ -75,9 +77,11 @@
         self.title=NSLocalizedString(@"О проекте", @"О проекте");
         self.tabBarItem.title=NSLocalizedString(@"О проекте", @"О проекте");
         if ([OneRecipeViewController physycalSizeOfScreen:[UIScreen mainScreen]].width==320)
-            self.tabBarItem.image=[UIImage imageNamed:@"About_project.png"];
+//            self.tabBarItem.image=[UIImage imageNamed:@"About_project.png"];
+                self.tabBarItem.image=[UIImage imageNamed:@"spisok.png"];
         else{
-            self.tabBarItem.image=[UIImage imageNamed:@"About_project_big.png"];
+//            self.tabBarItem.image=[UIImage imageNamed:@"About_project_big.png"];
+            self.tabBarItem.image=[UIImage imageNamed:@"spisok_big.png"];
         CGImageRef imgRef=self.tabBarItem.image.CGImage;
         self.tabBarItem.image=[UIImage imageWithCGImage:imgRef scale:2.0f orientation:UIImageOrientationUp];
         }
@@ -126,6 +130,16 @@
     [self renderView];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    UIAlertView* dialog = [[UIAlertView alloc] init];
+    [dialog setTitle:@"Внимание!"];
+    [dialog setMessage:@"Все"];
+    [dialog addButtonWithTitle:@"OK"];
+    [dialog addButtonWithTitle:@"OK"];
+    [dialog addButtonWithTitle:@"OK"];
+    [dialog show];
+    [dialog release];
+
 }
 
 - (void)viewDidUnload

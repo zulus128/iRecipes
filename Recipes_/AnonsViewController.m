@@ -49,14 +49,19 @@
     //adding all content
     CGFloat x=30;
     CGFloat y=20;
-    UIImageView *topBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"top-back-center.png"]];
+//    UIImageView *topBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"top-back-center.png"]];
+//    UIImageView *topBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back2.png"]];
+    UIImageView *topBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_grey_top.png"]];
+
     topBack.frame=CGRectMake(0, y, topBack.image.size.width/2, topBack.image.size.height/2);
     [mainView addSubview:topBack];
     //
     y+=topBack.frame.size.height;
     [topBack release];
     //
-    UIImageView *centerBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back-center.png"]];
+//    UIImageView *centerBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back-center.png"]];
+    UIImageView *centerBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_grey_center.png"]];
+
     centerBack.frame=CGRectMake(0, y, centerBack.image.size.width/2, centerBack.image.size.height/2);
     [mainView addSubview:centerBack];
     y=5;
@@ -101,7 +106,9 @@
     centerBack.frame=CGRectMake(centerBack.frame.origin.x, centerBack.frame.origin.y, centerBack.frame.size.width, y);
     //
     y=centerBack.frame.size.height+centerBack.frame.origin.y;
-    UIImageView *bottomBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bottom-back-center.png"]];
+//    UIImageView *bottomBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"bottom-back-center.png"]];
+    UIImageView *bottomBack=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_grey_bottom.png"]];
+
     bottomBack.frame=CGRectMake(0, y, bottomBack.image.size.width/2, bottomBack.image.size.height/2);
     [mainView addSubview:bottomBack];
     [bottomBack release];
@@ -119,6 +126,7 @@
     if (self) {
         self.nc=navCtl;
         self.navigationController.title=NSLocalizedString(@"Анонс", @"Анонс");
+        
         self.nc.title=NSLocalizedString(@"Анонс", @"Анонс");
         self.title=NSLocalizedString(@"Анонс", @"Анонс");
         if ([OneRecipeViewController physycalSizeOfScreen:[UIScreen mainScreen]].width==320)

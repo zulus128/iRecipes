@@ -4,12 +4,6 @@
 <array>
 	<dict>
 		<key>image</key>
-		<string>anons_karpacho.png</string>
-		<key>name</key>
-		<string>Карпаччо из дорадо</string>
-	</dict>
-	<dict>
-		<key>image</key>
 		<string>anons_salat_roastbeef.png</string>
 		<key>name</key>
 		<string>Салат ростбиф</string>
@@ -25,24 +19,6 @@
 		<string>anons_boloniese.png</string>
 		<key>name</key>
 		<string>Спагетти в соусе Болоньезе</string>
-	</dict>
-	<dict>
-		<key>image</key>
-		<string>anons_tunez.png</string>
-		<key>name</key>
-		<string>Тунец по-сицилийски </string>
-	</dict>
-	<dict>
-		<key>image</key>
-		<string>anons_spag_buff.png</string>
-		<key>name</key>
-		<string>Домашние спагетти алла неаполитана с моцарелой ди буффало</string>
-	</dict>
-	<dict>
-		<key>image</key>
-		<string>anons_tiramisu.png</string>
-		<key>name</key>
-		<string>Тирамису classico</string>
 	</dict>
 	<dict>
 		<key>image</key>

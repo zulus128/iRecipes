@@ -194,6 +194,20 @@
     self.navigationController.navigationBar.barStyle=UIBarStyleBlack;
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"att_dialog"]) {
+        
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"att_dialog"];
+        
+        UIAlertView* dialog = [[UIAlertView alloc] init];
+        [dialog setTitle:@"Внимание!"];
+        [dialog setMessage:@"Все рецепты в приложении – рецепты  от профессионального повара из Италии Изикеля Барбуто. Вы можете увидеть его в ресторане Бистро, что в Москве на Савиновской набережной, и в Академии Дель Густо – на его мастер классах. Каждый месяц, начиная с марта, вы будете получать новые 16 рецептов (4 курса), которые мы будем выбирать и снимать для Вас с нашей любовью к красивой еде."];
+        [dialog addButtonWithTitle:@"OK"];
+        [dialog show];
+        [dialog release];
+//        return NO;
+    }
 }
 
 - (void)viewDidUnload
