@@ -50,9 +50,41 @@
     delgusto1.font=[UIFont fontWithName:BASE_FONT size:16];
     delgusto1.dataDetectorTypes=UIDataDetectorTypeAll;
     delgusto1.scrollEnabled = NO;
-    //        delgusto.textAlignment=UITextAlignmentCenter;
     [main addSubview:delgusto1];
     [delgusto1 release];
+
+    UITextView *delgusto2=[[UITextView alloc] initWithFrame:CGRectMake(75, 1320, self.view.frame.size.width, 40)];
+    delgusto2.text=@"support@moslight.com";
+    delgusto2.backgroundColor=[UIColor clearColor];
+    delgusto2.textColor=[UIColor whiteColor];
+    delgusto2.editable=NO;
+    delgusto2.font=[UIFont fontWithName:BASE_FONT size:16];
+    delgusto2.dataDetectorTypes=UIDataDetectorTypeAll;
+    delgusto2.scrollEnabled = NO;
+    [main addSubview:delgusto2];
+    [delgusto2 release];
+
+    UITextView *delgusto3=[[UITextView alloc] initWithFrame:CGRectMake(75, 1050, self.view.frame.size.width, 40)];
+    delgusto3.text=@"Madanat@mail.ru";
+    delgusto3.backgroundColor=[UIColor clearColor];
+    delgusto3.textColor=[UIColor whiteColor];
+    delgusto3.editable=NO;
+    delgusto3.font=[UIFont fontWithName:BASE_FONT size:16];
+    delgusto3.dataDetectorTypes=UIDataDetectorTypeAll;
+    delgusto3.scrollEnabled = NO;
+    [main addSubview:delgusto3];
+    [delgusto3 release];
+
+    UITextView *delgusto4=[[UITextView alloc] initWithFrame:CGRectMake(75, 1392, self.view.frame.size.width, 40)];
+    delgusto4.text=@"info@7stepsmeal.com";
+    delgusto4.backgroundColor=[UIColor clearColor];
+    delgusto4.textColor=[UIColor whiteColor];
+    delgusto4.editable=NO;
+    delgusto4.font=[UIFont fontWithName:BASE_FONT size:16];
+    delgusto4.dataDetectorTypes=UIDataDetectorTypeAll;
+    delgusto4.scrollEnabled = NO;
+    [main addSubview:delgusto4];
+    [delgusto4 release];
 
     //setting content size
     main.contentSize=CGSizeMake(main_back.frame.size.width, main_back.frame.size.height);
