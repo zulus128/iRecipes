@@ -16,6 +16,7 @@
 }
 @property (nonatomic, retain) IBOutlet UIScrollView *main;
 @property (nonatomic, retain) UINavigationController *nc;
+@property (nonatomic, retain) IBOutlet UIWebView* site;
 
 -(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil andNC:(UINavigationController *)navCtl;
 - (void)showDialog;

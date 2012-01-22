@@ -186,7 +186,6 @@
 		FAB9E2B2142A6A4900BACCDB /* OnePackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E2B0142A6A4900BACCDB /* OnePackViewController.m */; };
 		FAB9E2B3142A6A4900BACCDB /* OnePackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E2B1142A6A4900BACCDB /* OnePackViewController.xib */; };
 		FAB9E2BD142A761600BACCDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB9E2BC142A761600BACCDB /* QuartzCore.framework */; };
-		FABC88AC1496774A00E526BB /* oproekte_ver4.png in Resources */ = {isa = PBXBuildFile; fileRef = FABC88AB1496774A00E526BB /* oproekte_ver4.png */; };
 		FAC7A2F9146C835F005FDE43 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A2F8146C835F005FDE43 /* background.png */; };
 		FAC7A2FC146C836B005FDE43 /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A2FA146C836B005FDE43 /* back2.png */; };
 		FAC7A304146C84B0005FDE43 /* 1-креветки.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A300146C84B0005FDE43 /* 1-креветки.png */; };
@@ -197,7 +196,6 @@
 		FAC7A30D146C8807005FDE43 /* segoeprb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A30B146C8807005FDE43 /* segoeprb.ttf */; };
 		FADF639A145D5D4000DDCD02 /* CrossButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF6399145D5D4000DDCD02 /* CrossButton.m */; };
 		FADF63A3145DB63200DDCD02 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADF63A2145DB63200DDCD02 /* MyTabBarController.m */; };
-		FAF1D2AF1492A14F007527FB /* ourthanks_ver5.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF1D2AE1492A14F007527FB /* ourthanks_ver5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -393,7 +391,6 @@
 		FAB9E2B0142A6A4900BACCDB /* OnePackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePackViewController.m; sourceTree = "<group>"; };
 		FAB9E2B1142A6A4900BACCDB /* OnePackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnePackViewController.xib; sourceTree = "<group>"; };
 		FAB9E2BC142A761600BACCDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FABC88AB1496774A00E526BB /* oproekte_ver4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oproekte_ver4.png; sourceTree = "<group>"; };
 		FAC7A2F8146C835F005FDE43 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		FAC7A2FA146C836B005FDE43 /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
 		FAC7A300146C84B0005FDE43 /* 1-креветки.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-креветки.png"; path = "../1-креветки.png"; sourceTree = "<group>"; };
@@ -406,7 +403,6 @@
 		FADF6399145D5D4000DDCD02 /* CrossButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrossButton.m; sourceTree = "<group>"; };
 		FADF63A1145DB63200DDCD02 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
 		FADF63A2145DB63200DDCD02 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
-		FAF1D2AE1492A14F007527FB /* ourthanks_ver5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ourthanks_ver5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -684,8 +680,6 @@
 				FA86EE0F14742E1A0086DC73 /* test_image.png */,
 				FA80B2C21490FCAF008513F0 /* anons */,
 				FA9FF30314769178002B1E3E /* wraps */,
-				FA9FF30214769153002B1E3E /* Our_thanks */,
-				FA9FF3011476906F002B1E3E /* About_project */,
 				FAC7A2F7146C834B005FDE43 /* background */,
 				FAC7A2F5146C8336005FDE43 /* TabBar icons */,
 			);
@@ -701,22 +695,6 @@
 				FA80B2C91490FCDA008513F0 /* anons_flan.png */,
 			);
 			name = anons;
-			sourceTree = "<group>";
-		};
-		FA9FF3011476906F002B1E3E /* About_project */ = {
-			isa = PBXGroup;
-			children = (
-				FABC88AB1496774A00E526BB /* oproekte_ver4.png */,
-			);
-			name = About_project;
-			sourceTree = "<group>";
-		};
-		FA9FF30214769153002B1E3E /* Our_thanks */ = {
-			isa = PBXGroup;
-			children = (
-				FAF1D2AE1492A14F007527FB /* ourthanks_ver5.png */,
-			);
-			name = Our_thanks;
 			sourceTree = "<group>";
 		};
 		FA9FF30314769178002B1E3E /* wraps */ = {
@@ -871,8 +849,6 @@
 				FA6A02EC149215D000DFC185 /* 2-ньекки.png in Resources */,
 				FA6A02ED149215D000DFC185 /* 3-дорадо.png in Resources */,
 				FA6A02EE149215D000DFC185 /* 4-мусс.png in Resources */,
-				FAF1D2AF1492A14F007527FB /* ourthanks_ver5.png in Resources */,
-				FABC88AC1496774A00E526BB /* oproekte_ver4.png in Resources */,
 				DD54844314C3A75B00615BA6 /* back_grey_top.png in Resources */,
 				DD54844614C3A7C200615BA6 /* back_grey_center.png in Resources */,
 				DD54844814C3A7CD00615BA6 /* back_grey_bottom.png in Resources */,

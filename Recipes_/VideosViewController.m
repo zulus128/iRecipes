@@ -15,6 +15,8 @@
 
 @implementation VideosViewController
 @synthesize main, nc;
+@synthesize site;
+
 -(void)renderView{
     //adding main scrolling view
     main.frame=CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y+self.navigationController.navigationBar.frame.size.height+self.tabBarController.tabBar.frame.size.height, self.view.frame.size.width, self.view.frame.size.height-self.navigationController.navigationBar.frame.size.height-self.tabBarController.tabBar.frame.size.height);
@@ -149,8 +151,11 @@
     [self renderView];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+//    self.site.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
 
 //    [self showDialog];
+    
+    [self.site setOpaque:NO];
 }
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
@@ -158,18 +163,26 @@
     if (buttonIndex == 0){
         
 //        NSLog(@"Ok");
-        [self showDialog];
+//        [self showDialog];
 
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://vkontakte.ru/feed#/club34152049"]];
+//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://vkontakte.ru/feed#/club34152049"]];
 
+        NSString* urlAdress = @"http://vkontakte.ru/feed#/club34152049";
+        NSURL *url = [NSURL URLWithString:urlAdress];
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+        [self.site loadRequest:requestObj];
     }
     else
     if (buttonIndex == 1){
         
         //        NSLog(@"Ok");
-        [self showDialog];
+//        [self showDialog];
         
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.facebook.com/pages/7stepsmeal/311972852176788"]];
+//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.facebook.com/pages/7stepsmeal/311972852176788"]];
+        NSString* urlAdress = @"http://www.facebook.com/pages/7stepsmeal/311972852176788";
+        NSURL *url = [NSURL URLWithString:urlAdress];
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+        [self.site loadRequest:requestObj];
 
     }
     else
@@ -178,8 +191,9 @@
             //        NSLog(@"Ok");
             [self showDialog];
             
-            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/ru/app//id483076445?mt=8"]];
-            
+//            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/ru/app//id483076445/"]];
+//            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/ru/app//id483076445?mt=8"]];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=483076445"]];
         }
     else {
         
