@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>ru</string>
 	<key>CFBundleDisplayName</key>
 	<string>Рецепты</string>
 	<key>CFBundleExecutable</key>
@@ -28,6 +28,8 @@
 	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>com.vkassin.iRecipes</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
