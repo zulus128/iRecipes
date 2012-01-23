@@ -140,6 +140,8 @@
 		DDDF7CDB14C64DC4006ED814 /* domashnie_spagett_2screeni.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDF7CD614C64DC3006ED814 /* domashnie_spagett_2screeni.png */; };
 		DDDF7CDC14C64DC4006ED814 /* Karpacho_2screen.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDF7CD714C64DC4006ED814 /* Karpacho_2screen.png */; };
 		DDDF7CDD14C64DC4006ED814 /* Tunez_2screen.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDF7CD814C64DC4006ED814 /* Tunez_2screen.png */; };
+		F245707114CD1A4900ADB864 /* back2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F245706F14CD1A4900ADB864 /* back2.jpg */; };
+		F245707214CD1A4900ADB864 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F245707014CD1A4900ADB864 /* background.jpg */; };
 		FA06FD061462DE2E002877D1 /* MyNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA06FD051462DE2E002877D1 /* MyNavController.m */; };
 		FA0BE3241428F01900F0D595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0BE3231428F01900F0D595 /* UIKit.framework */; };
 		FA0BE3261428F01900F0D595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA0BE3251428F01900F0D595 /* Foundation.framework */; };
@@ -186,8 +188,6 @@
 		FAB9E2B2142A6A4900BACCDB /* OnePackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB9E2B0142A6A4900BACCDB /* OnePackViewController.m */; };
 		FAB9E2B3142A6A4900BACCDB /* OnePackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB9E2B1142A6A4900BACCDB /* OnePackViewController.xib */; };
 		FAB9E2BD142A761600BACCDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB9E2BC142A761600BACCDB /* QuartzCore.framework */; };
-		FAC7A2F9146C835F005FDE43 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A2F8146C835F005FDE43 /* background.png */; };
-		FAC7A2FC146C836B005FDE43 /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A2FA146C836B005FDE43 /* back2.png */; };
 		FAC7A304146C84B0005FDE43 /* 1-креветки.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A300146C84B0005FDE43 /* 1-креветки.png */; };
 		FAC7A305146C84B0005FDE43 /* 2-фитучини.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A301146C84B0005FDE43 /* 2-фитучини.png */; };
 		FAC7A306146C84B0005FDE43 /* 3-мясо.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC7A302146C84B0005FDE43 /* 3-мясо.png */; };
@@ -332,6 +332,8 @@
 		DDDF7CD614C64DC3006ED814 /* domashnie_spagett_2screeni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = domashnie_spagett_2screeni.png; sourceTree = "<group>"; };
 		DDDF7CD714C64DC4006ED814 /* Karpacho_2screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Karpacho_2screen.png; sourceTree = "<group>"; };
 		DDDF7CD814C64DC4006ED814 /* Tunez_2screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunez_2screen.png; sourceTree = "<group>"; };
+		F245706F14CD1A4900ADB864 /* back2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back2.jpg; sourceTree = "<group>"; };
+		F245707014CD1A4900ADB864 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		FA06FD041462DE2E002877D1 /* MyNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavController.h; sourceTree = "<group>"; };
 		FA06FD051462DE2E002877D1 /* MyNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavController.m; sourceTree = "<group>"; };
 		FA0BE31F1428F01900F0D595 /* iRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -391,8 +393,6 @@
 		FAB9E2B0142A6A4900BACCDB /* OnePackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnePackViewController.m; sourceTree = "<group>"; };
 		FAB9E2B1142A6A4900BACCDB /* OnePackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnePackViewController.xib; sourceTree = "<group>"; };
 		FAB9E2BC142A761600BACCDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FAC7A2F8146C835F005FDE43 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
-		FAC7A2FA146C836B005FDE43 /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
 		FAC7A300146C84B0005FDE43 /* 1-креветки.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1-креветки.png"; path = "../1-креветки.png"; sourceTree = "<group>"; };
 		FAC7A301146C84B0005FDE43 /* 2-фитучини.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2-фитучини.png"; path = "../2-фитучини.png"; sourceTree = "<group>"; };
 		FAC7A302146C84B0005FDE43 /* 3-мясо.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3-мясо.png"; path = "../3-мясо.png"; sourceTree = "<group>"; };
@@ -731,8 +731,8 @@
 		FAC7A2F7146C834B005FDE43 /* background */ = {
 			isa = PBXGroup;
 			children = (
-				FAC7A2FA146C836B005FDE43 /* back2.png */,
-				FAC7A2F8146C835F005FDE43 /* background.png */,
+				F245706F14CD1A4900ADB864 /* back2.jpg */,
+				F245707014CD1A4900ADB864 /* background.jpg */,
 			);
 			name = background;
 			sourceTree = "<group>";
@@ -826,8 +826,6 @@
 				FAAF1FB9146C2DB30060E5C8 /* Our_thanks.png in Resources */,
 				FAAF1FBA146C2DB30060E5C8 /* Recipes_big.png in Resources */,
 				FAAF1FBB146C2DB30060E5C8 /* Recipes.png in Resources */,
-				FAC7A2F9146C835F005FDE43 /* background.png in Resources */,
-				FAC7A2FC146C836B005FDE43 /* back2.png in Resources */,
 				FAC7A304146C84B0005FDE43 /* 1-креветки.png in Resources */,
 				FAC7A305146C84B0005FDE43 /* 2-фитучини.png in Resources */,
 				FAC7A306146C84B0005FDE43 /* 3-мясо.png in Resources */,
@@ -982,6 +980,8 @@
 				DD2E0C7614C9B2760087ED01 /* recipes.plist in Resources */,
 				DD2E0C7714C9B2760087ED01 /* Копия anons.plist in Resources */,
 				DD2E0C7A14C9B3220087ED01 /* 3set.png in Resources */,
+				F245707114CD1A4900ADB864 /* back2.jpg in Resources */,
+				F245707214CD1A4900ADB864 /* background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

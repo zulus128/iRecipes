@@ -24,7 +24,7 @@
     [self.view addSubview:main];
     //
 //    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"oproekte.png"]];
-    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.png"]];
+    UIImageView *main_back=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background.jpg"]];
     if ([OneRecipeViewController physycalSizeOfScreen:[UIScreen mainScreen]].width==320)
         main_back.frame=CGRectMake(0, 0, main_back.image.size.width/2, main_back.image.size.height/2);
     else
@@ -113,9 +113,10 @@
     UIAlertView* dialog = [[UIAlertView alloc] init];
     dialog.delegate = self;
     [dialog setTitle:@"Внимание!"];
-    [dialog setMessage:@"Вы можете обменяться впечатлениями в известных соц. сетях:"];
-    [dialog addButtonWithTitle:@"В Контакте"];
+    [dialog setMessage:@"Вы можете обменяться впечатлениями о программе:"];
+//    [dialog addButtonWithTitle:@"В Контакте"];
     [dialog addButtonWithTitle:@"Facebook"];
+    [dialog addButtonWithTitle:@"Написать Шеф-повару"];
     [dialog addButtonWithTitle:@"Отзыв в AppStore"];
     [dialog addButtonWithTitle:@"Отмена"];
     [dialog show];
@@ -147,7 +148,7 @@
     self.title=NSLocalizedString(@"О проекте", @"О проекте");
     self.navigationController.navigationBar.barStyle=UIBarStyleBlack;
     self.nc.navigationBar.barStyle=UIBarStyleBlack;
-    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
     [self renderView];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
@@ -160,20 +161,15 @@
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
 
+//    if (buttonIndex == 0){
+//        
+//        NSString* urlAdress = @"http://vkontakte.ru/feed#/club34152049";
+//        NSURL *url = [NSURL URLWithString:urlAdress];
+//        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+//        [self.site loadRequest:requestObj];
+//    }
+//    else
     if (buttonIndex == 0){
-        
-//        NSLog(@"Ok");
-//        [self showDialog];
-
-//        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://vkontakte.ru/feed#/club34152049"]];
-
-        NSString* urlAdress = @"http://vkontakte.ru/feed#/club34152049";
-        NSURL *url = [NSURL URLWithString:urlAdress];
-        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-        [self.site loadRequest:requestObj];
-    }
-    else
-    if (buttonIndex == 1){
         
         //        NSLog(@"Ok");
 //        [self showDialog];
@@ -184,6 +180,13 @@
         NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
         [self.site loadRequest:requestObj];
 
+    }
+    else
+    if (buttonIndex == 1){
+        
+        [self showDialog];
+     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:info@7stepsmeal.com"]];
+        
     }
     else
         if (buttonIndex == 2){

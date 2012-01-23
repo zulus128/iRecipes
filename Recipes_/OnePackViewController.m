@@ -33,7 +33,7 @@
     //
     mainView.frame=CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y+self.navigationController.navigationBar.frame.size.height+self.tabBarController.tabBar.frame.size.height, self.view.frame.size.width, self.view.frame.size.height-self.navigationController.navigationBar.frame.size.height-self.tabBarController.tabBar.frame.size.height);
     //setting background
-    self.mainView.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];    
+    self.mainView.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];    
     //setting UIView with UILabel with good font to navTitle
     UIView *navTitleView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, self.navigationController.navigationBar.frame.size.width-160, self.navigationController.navigationBar.frame.size.height)];
     navTitleView.backgroundColor=[UIColor clearColor];
@@ -51,7 +51,7 @@
     //
     [self.view addSubview:mainView];
     //setting 2nd background for recipes
-    UIImageView *secBg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back2.png"]];
+    UIImageView *secBg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back2.jpg"]];
 //    UIImageView *secBg=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"back_for_small_photo.png"]];
     secBg.frame=CGRectMake(0, -1, secBg.image.size.width/2, secBg.image.size.height/2);
     [self.mainView addSubview:secBg];

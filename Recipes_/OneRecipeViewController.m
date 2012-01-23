@@ -272,10 +272,10 @@
 
 -(void)renderView{
     //test
-    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
     //setting scroll view size to fit screen
     mainView.frame=CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y+self.navigationController.navigationBar.frame.size.height+self.tabBarController.tabBar.frame.size.height, self.view.frame.size.width, self.view.frame.size.height-self.view.frame.origin.y-self.navigationController.navigationBar.frame.size.height-self.tabBarController.tabBar.frame.size.height);
-    mainView.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+    mainView.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
     [self.view addSubview:mainView];
     CGFloat x=0;
     CGFloat y=0;

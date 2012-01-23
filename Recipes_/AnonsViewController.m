@@ -30,7 +30,7 @@
     //==
     self.mainView.frame=CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y+self.navigationController.navigationBar.frame.size.height+self.tabBarController.tabBar.frame.size.height, self.view.frame.size.width, self.view.frame.size.height-self.view.frame.origin.y-self.navigationController.navigationBar.frame.size.height-self.tabBarController.tabBar.frame.size.height);
     //==
-    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
     //setting UIView with UILabel with good font to navTitle
     UIView *navTitleView=[[UIView alloc] initWithFrame:CGRectMake(0, 0, self.navigationController.navigationBar.frame.size.width-160, self.navigationController.navigationBar.frame.size.height)];
     navTitleView.backgroundColor=[UIColor clearColor];

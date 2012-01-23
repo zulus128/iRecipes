@@ -147,7 +147,7 @@
     //
     self.navigationController.navigationBar.barStyle=UIBarStyleBlack;
     self.nc.navigationBar.barStyle=UIBarStyleBlack;
-    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]];
+    self.view.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.jpg"]];
     [self renderView];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
