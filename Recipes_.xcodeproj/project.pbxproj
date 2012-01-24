@@ -1138,8 +1138,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moslight LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moslight LLC";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -1150,8 +1150,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				New_Setting = "";
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
+				PROVISIONING_PROFILE = "0BD0E93F-8211-495E-851E-A487D291D3A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0BD0E93F-8211-495E-851E-A487D291D3A1";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1160,8 +1160,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moslight LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moslight LLC";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -1169,8 +1169,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				New_Setting = "";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
+				PROVISIONING_PROFILE = "0BD0E93F-8211-495E-851E-A487D291D3A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0BD0E93F-8211-495E-851E-A487D291D3A1";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -1183,8 +1183,8 @@
 					armv6,
 					armv7,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moslight LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moslight LLC";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1194,8 +1194,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = iRecipes;
-				PROVISIONING_PROFILE = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
+				PROVISIONING_PROFILE = "0BD0E93F-8211-495E-851E-A487D291D3A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0BD0E93F-8211-495E-851E-A487D291D3A1";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -1211,8 +1211,8 @@
 					armv6,
 					armv7,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moslight LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moslight LLC";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Recipes_/Recipes_-Prefix.pch";
@@ -1220,8 +1220,8 @@
 				INFOPLIST_FILE = "Recipes_/Recipes_-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = iRecipes;
-				PROVISIONING_PROFILE = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
+				PROVISIONING_PROFILE = "0BD0E93F-8211-495E-851E-A487D291D3A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0BD0E93F-8211-495E-851E-A487D291D3A1";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -1233,8 +1233,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moslight LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moslight LLC";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
@@ -1243,8 +1243,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				New_Setting = "";
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
+				PROVISIONING_PROFILE = "0BD0E93F-8211-495E-851E-A487D291D3A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0BD0E93F-8211-495E-851E-A487D291D3A1";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -1257,8 +1257,8 @@
 					armv6,
 					armv7,
 				);
-				CODE_SIGN_IDENTITY = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: VADIM KASSIN (744XFE3JS8)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Moslight LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Moslight LLC";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Recipes_/Recipes_-Prefix.pch";
@@ -1266,8 +1266,8 @@
 				INFOPLIST_FILE = "Recipes_/Recipes_-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = iRecipes;
-				PROVISIONING_PROFILE = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "685F8AC0-C34D-44F3-939D-1A5F10F6E844";
+				PROVISIONING_PROFILE = "0BD0E93F-8211-495E-851E-A487D291D3A1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0BD0E93F-8211-495E-851E-A487D291D3A1";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
